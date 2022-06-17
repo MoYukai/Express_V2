@@ -1,0 +1,26 @@
+@import "../../layout/flex.wxss";
+.page{
+  margin-top: 40rpx;
+}
+.input{
+  width: 400rpx;
+  border: rgb(199, 199, 199) solid 3rpx;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+  font-size: 25rpx;
+  margin: 30rpx 0;
+  color: gray;
+  padding: 20rpx 50rpx;
+}
+.submit{
+  background-color: orange;
+  color:rgb(51, 51, 51);
+  font-size: 25rpx;
+  padding: 10rpx 30rpx;
+  width: max-content;
+  border-radius: 10rpx;
+  margin-bottom: 10rpx;
+}
+.hover{
+  opacity: 0.8;
+}

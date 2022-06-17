@@ -1,0 +1,19 @@
+<wxs module="dateUtil" src="../../../../../Filter/timer.wxs"></wxs>
+<wxs module="filter" src="../../../../../Filter/index.wxs"></wxs>
+<view class="tab flex flex-direction justify-start">
+<slot></slot>
+<view class="top flex align-center justify-between">
+  <view class="left flex align-center">
+<image class="left-a" 
+      src="{{orderData.userDataLookUp[0].userInfo.data.avatarUrl}}"
+>
+</image>
+<view class="left-b">
+<view class="left-b-1">{{orderData.code}}</view>
+<view class="left-b-2">{{orderData.poster}}</view>
+</view>
+</view>
+<view class="right">{{dateUtil.dateFormat(filter.cdbDate(orderData.createTimestamp),'MM/dd hh:mm')}}</view>
+</view>
+
+</view>

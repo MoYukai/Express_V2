@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "user-row":"../../../../../components/user-panel/user-row/user-row"
+  }
+}

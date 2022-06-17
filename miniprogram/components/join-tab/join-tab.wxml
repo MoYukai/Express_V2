@@ -1,0 +1,10 @@
+<view class="tab">
+  <view class="title">成为小袋鼠</view>
+  <view class="text">多劳多得，按单结算</view>
+  <view class="box flex justify-end">
+    <view class="button flex align-center justify-center" hover-class="btn-hover" bindtap="join">
+      <image src="../../static/icon/income.svg" class="icon"></image>
+      <view >接单赚钱</view>
+    </view>
+  </view>
+</view>

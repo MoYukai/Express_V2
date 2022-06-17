@@ -1,0 +1,29 @@
+@import "../../layout/flex.wxss";
+.free-box{
+  background-color: #1B1B1B;
+  height: max-content;
+  padding: 15rpx 25rpx;
+  color: #F3D7B2;
+  font-size: 20rpx;
+  border-radius: 10rpx;
+  width: 82%;
+  margin-bottom:20rpx ;
+}
+.dis{
+  color: rgb(114, 114, 114);
+  font-size: 20rpx;
+}
+.button-o{
+  width: 100%;
+}
+.button{
+  width: 250rpx !important;
+}
+.button-class{
+  color: rgb(63, 63, 63) !important;
+  background-color: #FFC300 !important;
+  border: none !important;
+}
+.changeSize{
+  margin-top: 40rpx;
+}

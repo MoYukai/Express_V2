@@ -1,0 +1,30 @@
+@import "../../layout/flex.wxss";
+.tab{
+  background-image: linear-gradient(90deg, #EF8A36 0%, #EA6C3B 100%);
+  width: 100%;
+  height: 120rpx;
+  margin-top: 18rpx;
+  border-radius: 12rpx;
+  color: white;
+}
+.tab-inner{
+  width: 90%;
+}
+.left{
+  height: 80rpx;
+}
+.left-title{
+  font-size: 22rpx;
+}
+.left-text{
+  font-size: 22rpx;
+}
+.left-text-big{
+  font-size: 36rpx;
+}
+.right-btn{
+  font-size: 18rpx;
+  border: white 2rpx solid;
+  padding: 8rpx 16rpx;
+  border-radius: 10rpx;
+}

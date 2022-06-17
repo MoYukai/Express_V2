@@ -1,0 +1,18 @@
+.tab{
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+  text-align: center;
+}
+.title{
+  font-size: 28rpx;
+  padding-top: 40rpx;
+  text-align: center;
+}
+.kefu{
+  width: 500rpx;
+  margin: 60rpx auto;
+  border: rgb(236, 236, 236) solid 1rpx;
+  border-radius: 20rpx;
+}
+

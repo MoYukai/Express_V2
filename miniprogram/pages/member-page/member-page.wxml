@@ -1,0 +1,89 @@
+<van-tabs id="tabs" active="{{active}}"  color="#FFC300" sticky animated>
+  <van-tab title="订单池" dot="{{dotList[0]}}">
+    <pool
+    id="pool"
+    bind:detail="poolDetail"
+    >
+    </pool>
+  </van-tab>
+  <van-tab title="取货中" dot="{{dotList[1]}}">
+    <picking-up
+    id="picking-up"
+    bind:detail="pickingUpDetail"
+    ></picking-up>
+  </van-tab>
+  <van-tab title="配送中" dot="{{dotList[2]}}">
+    <delivering
+    id="delivering"
+    bind:detail="deliveringDetail"
+    >
+    </delivering>
+  </van-tab>
+  <van-tab title="已完成" dot="{{dotList[3]}}">
+    <completed
+    id="completed"
+    bind:detail="completedDetail"
+    >
+    </completed>
+  </van-tab>
+</van-tabs>
+
+<!-- 订单池弹窗 -->
+<pool-popup
+bind:hidePop="_hideAllPop"
+bind:back="_hideAllPop"
+bind:reLoad="reLoad"
+
+show="{{poolShow}}"
+pop="{{poolPop}}"
+data-pop="{{poolPop}}"
+>
+</pool-popup>
+<!-- 订单池弹窗 -->
+
+<!-- 取货中弹窗 -->
+<pickingup-popup
+bind:hidePop="_hideAllPop"
+bind:back="_hideAllPop"
+bind:reLoad="reLoad"
+
+show="{{pickingUpShow}}"
+pop="{{pickingUpPop}}"
+idcode="{{IDCode}}"
+data-pop="{{pickingUpPop}}"
+>
+
+</pickingup-popup>
+<!-- 取货中弹窗 -->
+
+<!-- 配送中弹窗 -->
+<delivering-popup
+bind:hidePop="_hideAllPop"
+bind:back="_hideAllPop"
+bind:reLoad="reLoad"
+
+show="{{deliveringShow}}"
+pop="{{deliveringPop}}"
+data-pop="{{deliveringPop}}"
+>
+
+</delivering-popup>
+<!-- 配送中弹窗 -->
+
+<!-- 已完成弹窗 -->
+<completed-popup
+bind:hidePop="_hideAllPop"
+bind:back="_hideAllPop"
+bind:reLoad="reLoad"
+
+show="{{completedShow}}"
+pop="{{completedPop}}"
+data-pop="{{completedPop}}"
+>
+
+</completed-popup>
+<!-- 已完成弹窗 -->
+
+<van-toast id="van-toast" />
+<van-dialog id="van-dialog" 
+confirm-button-color="#FF9403"/>

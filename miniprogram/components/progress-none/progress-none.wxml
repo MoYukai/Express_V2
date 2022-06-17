@@ -1,0 +1,5 @@
+<view class="tab flex flex-direction align-center justify-start">
+<image src="../../static/icon/empty.svg" class="image" mode="widthFix"></image>
+<view class="btn" hover-class="hover" bindtap="goto" wx:if="{{none}}">{{btntitle}}</view>
+<view wx:if="{{!none}}" class="none-text">{{title}}</view>
+</view>

@@ -1,0 +1,11 @@
+{
+  "component": true,
+  "usingComponents": {
+    "page-model":"../../../../components/page-model/page-model",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "progress-none":"../../../../components/progress-none/progress-none",
+    "progress-card":"../../../../components/progress-card/progress-card",
+    "progress-card-2":"../../../../components/progress-card-2/progress-card-2"
+  }
+}

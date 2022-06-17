@@ -1,0 +1,24 @@
+{
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "picking-up":"../../components/progress-pages/releaser/picking-up/picking-up",
+    "delivering":"../../components/progress-pages/releaser/delivering/delivering",
+    "completed":"../../components/progress-pages/releaser/completed/completed",
+    "cancelled":"../../components/progress-pages/releaser/cancelled/cancelled",
+    "van-popup": "@vant/weapp/popup/index",
+    "pickingup-popup":"../../components/progress-pages/releaser/picking-up/popup/pickingup-popup",
+    "cancelled-popup":"../../components/progress-pages/releaser/cancelled/popup/cancelled-popup",
+    "delivering-popup":"../../components/progress-pages/releaser/delivering/popup/delivering-popup",
+    "completed-popup":"../../components/progress-pages/releaser/completed/popup/completed-popup",
+    "van-notice-bar": "@vant/weapp/notice-bar/index"
+  },
+  "navigationBarTitleText": "我的订单",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#ffffff",
+  "backgroundColorBottom": "#f4f4f4",
+  "backgroundColorTop": "#ffffff",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundTextStyle": "dark"
+}

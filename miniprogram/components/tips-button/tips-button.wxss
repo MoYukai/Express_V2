@@ -1,0 +1,38 @@
+@import "../../layout/flex.wxss";
+
+.btn-hover{
+  opacity: 0.8;
+}
+.tips{
+  height: 75rpx;
+  background-color: #FFF6D5;
+  border-radius: 12rpx;
+  margin-top: 15rpx;
+  padding-left:25rpx;
+  padding-right:25rpx
+}
+
+.text{
+  color: #9D7A00;
+  font-size: 24rpx;
+
+}
+
+.button{
+  background-color: #F7D248;
+  height: 45rpx;
+  width: 120rpx;
+  font-size: 20rpx;
+  border-radius: 10rpx;
+  font-weight: bold;
+  position: relative;
+}
+.button-dot{
+  height: 15rpx;
+  width: 15rpx;
+  background-color: red;
+  border-radius: 100%;
+  position:absolute;
+  left: -6rpx;
+  top:-6rpx
+}

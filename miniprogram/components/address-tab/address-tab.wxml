@@ -1,0 +1,14 @@
+<view class="flex justify-between box {{arrow ? '' : 'width-mac'}}" hover-class="class-hover">
+<view class="left flex flex-direction justify-between">
+<view class="left-top flex justify-between">
+<view class="left-top-name">{{name}}</view>
+<view class="left-top-name">{{phone}}</view>
+</view>
+<view class="left-down">
+{{address}}
+</view>
+</view>
+<view class="right flex align-center" wx:if="{{arrow}}">
+<image class="right-icon" src="../../static/icon/arrow.svg"></image>
+</view>
+</view>

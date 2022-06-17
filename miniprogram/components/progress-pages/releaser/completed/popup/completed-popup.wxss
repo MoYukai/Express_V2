@@ -1,0 +1,13 @@
+@import "../../../../../layout/flex.wxss";
+.time{
+  color: rgb(100, 100, 100);
+  font-size: 23rpx;
+  margin-top: 7rpx;
+  width: 420rpx;
+}
+.image{
+  width: 250rpx;
+  height: 250rpx;
+  overflow: hidden;
+  border-radius: 20rpx;
+}

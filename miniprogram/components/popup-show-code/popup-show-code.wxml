@@ -1,0 +1,14 @@
+<van-popup show="{{ show }}" bind:close="onClose" round closeable>
+
+<view class="tab flex flex-direction align-center justify-between">
+<view class="title">核销码</view>
+<view class="contant flex flex-direction align-center justify-start">
+<image class="qr-code" src="{{qrpath}}" mode="widthFix"></image>
+<view class="price">{{item.price/100}}￥</view>
+<view class="button" bindtap="service">联系客服</view>
+<view class="desc-1">截图后点击联系客服，发送核销码即可提现</view>
+<view class="desc-2">资产信息，请勿泄露</view>
+</view>
+</view>
+
+</van-popup>

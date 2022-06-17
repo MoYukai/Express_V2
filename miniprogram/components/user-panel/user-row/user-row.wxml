@@ -1,0 +1,12 @@
+<view class="tab flex justify-between align-center" hover-class="row-hover">
+<view class="left flex align-center">
+<image class="header" src="{{avatar}}" mode="widthFix"></image>
+<view class="text-box">
+<view class="nick">{{nick}}</view>
+<view class="desc">简介</view>
+</view>
+</view>
+<view class="right flex flex-direction align-center">
+<view class="date">{{time}}</view>
+</view>
+</view>

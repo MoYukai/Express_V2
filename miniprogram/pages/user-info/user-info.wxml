@@ -1,0 +1,25 @@
+<view wx:if="{{userAddress}}">
+  <view class="row">
+    <image class="icon" src="../../static/icon/done.png">
+    </image>
+  </view>
+  <view class="row-text">
+    你的信息已完善
+  </view>
+  <view class="row-button flex justify-center">
+    <view class="button" bindtap="gotoExpressMan">去接单</view>
+  </view>
+</view>
+
+<view wx:if="{{!userAddress}}">
+  <view class="row">
+    <image class="icon" src="../../static/icon/question2.png">
+    </image>
+  </view>
+  <view class="row-text">
+    你的信息还未完善
+  </view>
+  <view class="row-button flex justify-center">
+    <view class="button" bindtap="gotoAddress">去完善</view>
+  </view>
+</view>

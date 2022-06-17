@@ -1,0 +1,13 @@
+.refund{
+  color:#EF771F;
+  font-size: 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 30rpx;
+  border-radius: 11rpx;
+  background-color: #FFFBE8;
+}
+.reason{
+  color: #414141;
+  font-size: 26rpx;
+}

@@ -1,0 +1,13 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-popup": "@vant/weapp/popup/index",
+    "popup-title":"../../../../popup-title/popup-title",
+    "popup-item":"../../../../popup-item/popup-item",
+    "code-show":"../../../../code-show/code-show",
+    "address-tab":"../../../../address-tab/address-tab",
+    "popup-button":"../../../../popup-button/popup-button",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-loading": "@vant/weapp/loading/index"
+  }
+}

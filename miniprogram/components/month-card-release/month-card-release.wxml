@@ -1,0 +1,34 @@
+<view wx:if="{{!bought}}" class="tab flex align-center justify-between">
+  <view class="left flex align-center" bindtap="help">
+    <image class="icon"  src="../../static/icon/question.png" mode="widthFix"></image>
+    <view class="text flex align-center">买袋鼠月卡 · 本单免费</view>
+  </view>
+  <view class="right flex align-center justify-between">
+    <view class="num">
+      ￥<text class="num-big">19</text>
+      <text class="num-desc">/30天</text>
+    </view>
+    <view  bindtap="radio"  class="flex align-center">
+      <view class="radio" wx:if="{{!month_card}}">
+      </view>
+      <image wx:if="{{month_card}}" class="radio-selected" src="../../static/icon/selected2.png" mode="widthFix">
+      </image>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{bought}}" class="tab flex align-center justify-between" bindtap="help">
+  <view class="left flex align-center">
+    <view class="text-bought flex align-center">{{boughtDesc}}</view>
+  </view>
+  <view class="right-bought flex align-center justify-between">
+    <view class="remain flex flex-direction align-end justify-between">
+      <view class="remain-a">今日可用{{today_remain}}张</view>
+      <view class="remain-b">还剩{{day_remain}}天</view>
+    </view>
+    <view class="flex align-center" >
+      <image src="../../static/icon/arrow-right.png" class="arrow-right" mode="widthFix">
+      </image>
+    </view>
+  </view>
+</view>

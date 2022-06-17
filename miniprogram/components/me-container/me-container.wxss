@@ -1,0 +1,28 @@
+@import "../../layout/flex.wxss";
+
+.tab{
+  background-color: #fff;
+  width: 100%;
+  height: max-content;
+  margin-top: 20rpx;
+  border-radius: 12rpx;
+  padding: 10rpx 0;
+  padding-bottom: 26rpx;
+}
+.title-box{
+  min-height: 50rpx;
+  width: 90%;
+}
+.container-box{
+  min-height: 90rpx;
+  width: 85%;
+  margin-top: 15rpx;
+}
+.title-box-left{
+  font-size: 26rpx;
+  font-weight: bold;
+}
+.title-box-right{
+  font-size: 20rpx;
+  color: rgb(155, 155, 155);
+}

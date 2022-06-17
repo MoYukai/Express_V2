@@ -1,0 +1,36 @@
+@import "../../layout/flex.wxss";
+page {
+  background-color: #fff;
+}
+
+.icon {
+  width: 220rpx;
+  height: 220rpx;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 170rpx;
+}
+
+.row-text {
+  margin-top: 40rpx;
+  text-align: center;
+}
+
+.row-button {
+  margin-top: 60rpx;
+  text-align: center;
+}
+
+.button {
+  font-size: 25rpx;
+  color: gray;
+  width: max-content;
+  height: max-content;
+  padding: 15rpx 30rpx;
+  border-radius: 15rpx;
+  border: gray solid 3rpx;
+}

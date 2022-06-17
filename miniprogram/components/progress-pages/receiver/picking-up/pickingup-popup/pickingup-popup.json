@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-popup": "@vant/weapp/popup/index",
+    "popup-title":"../../../../popup-title/popup-title",
+    "popup-item":"../../../../popup-item/popup-item",
+    "code-show2":"../../../../code-show2/code-show2",
+    "address-tab":"../../../../address-tab/address-tab",
+    "popup-button":"../../../../popup-button/popup-button",
+    "van-dialog": "@vant/weapp/dialog/index",
+    "van-loading": "@vant/weapp/loading/index",
+    "cancel-pick-reason":"../../../../../components/cancel-pick-reason/cancel-pick-reason"
+  }
+}

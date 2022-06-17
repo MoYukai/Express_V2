@@ -1,0 +1,29 @@
+@import "../../layout/flex.wxss";
+.tab{
+  background-color: #fff;
+  height: 420rpx;
+  width: 100%;
+  border-radius: 24rpx;
+  margin-top: 50rpx;
+}
+.top{
+  height: 150rpx;
+  width: 150rpx;
+  margin-top: 60rpx;
+}
+.top2{
+  font-size: 25rpx;
+  color: gray;
+  margin-top: 30rpx;
+}
+.top3{
+  padding: 15rpx 30rpx;
+  margin-top: 50rpx;
+  font-size: 20rpx;
+  font-weight: bold;
+  background-color: #F6C543;
+  border-radius: 10rpx;
+}
+.hover{
+  opacity: 0.8;
+}

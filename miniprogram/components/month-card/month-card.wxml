@@ -1,0 +1,53 @@
+  <view wx:if="{{!monthCardType}}" class="card flex align-center">
+  <view class="title-card-o">
+    <view class="title-card flex">
+      <view class="title-card-left flex align-center">
+        <view>
+          <view class="title-card-left-title">袋鼠月卡</view>
+          <view class="title-card-left-text">包含60张代拿券</view>
+        </view>
+      </view>
+      <view class="title-card-right flex align-center">
+        <image src="../../static/icon/kangaroo.png" class="title-card-right-icon" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+  <view class="text-card flex align-center justify-end">
+    <view class="text-card-left flex flex-direction align-end">
+      <view class="text-card-left-money">19元/月</view>
+      <view class="text-card-left-money-LT">120元/月</view>
+    </view>
+    <view class="text-card-middle flex align-center justify-center">
+      <image src="../../static/icon/Question-mark.png" class="text-card-middle-icon" bindtap="help"></image>
+    </view>
+    <view class="text-card-right flex align-center justify-center" hover-class="btn-hover" bindtap="buy">购买</view>
+    <view></view>
+  </view>
+</view>
+
+<view wx:if="{{monthCardType}}" class="card flex align-center">
+  <view class="title-card-o">
+    <view class="title-card flex">
+      <view class="title-card-left flex align-center">
+        <view>
+          <view class="title-card-left-title">已购买月卡</view>
+          <view class="title-card-left-text">包含60张代拿券</view>
+        </view>
+      </view>
+      <view class="title-card-right flex align-center">
+        <image src="../../static/icon/kangaroo.png" class="title-card-right-icon" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+  <view class="text-card flex align-center justify-end">
+    <view class="text-card-left flex flex-direction align-end">
+      <view class="text-card-left-money">19元/月</view>
+      <view class="text-card-left-money-LT">120元/月</view>
+    </view>
+    <view class="text-card-middle flex align-center justify-center">
+      <image src="../../static/icon/Question-mark.png" class="text-card-middle-icon" bindtap="help"></image>
+    </view>
+    <view class="text-card-right flex align-center justify-center" hover-class="btn-hover" bindtap="buy">查看</view>
+    <view></view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<view class="item flex align-start justify-start" 
+style="height:{{height}}rpx">
+<view class="title">{{title}}</view>
+<view class="content">
+<slot></slot>
+</view>
+</view>

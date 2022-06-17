@@ -1,0 +1,55 @@
+<page-model>
+  <view class="title">选择校区</view>
+  <view class="box box-select flex justify-center align-center">{{college[0].name}}</view>
+  <view class="title">选择宿舍区</view>
+  <view class="flex line align-center justify-start">
+    <view class="box flex justify-center align-center {{user.dorm_name == college[0].dorm[0].name ? 'box-select' : ''}}"
+      bindtap="dorm_select" data-dorm="{{college[0].dorm[0].name}}">{{college[0].dorm[0].name}}</view>
+    <view class="box flex justify-center align-center {{user.dorm_name == college[0].dorm[1].name ? 'box-select' : ''}}"
+      bindtap="dorm_select" data-dorm="{{college[0].dorm[1].name}}">{{college[0].dorm[1].name}}</view>
+  </view>
+  <view class="title">选择栋数</view>
+  <view class="flex line align-center justify-start">
+    <view class="box flex justify-center align-center" bindtap="selectNumber">{{user.dorm_number}}栋</view>
+  </view>
+  <view class="title">输入房间号</view>
+  <view class="box flex justify-center align-center">
+    <input placeholder="" maxlength="3" class="input" type="number" value="{{user.room}}" bindinput="roomInput"></input>
+  </view>
+  <view class="title">姓名</view>
+  <view class="box flex justify-center align-center">
+    <input placeholder="" maxlength="11" class="input" type="text" value="{{user.name}}" bindinput="nameInput"></input>
+  </view>
+  <view class="title">电话</view>
+  <view class="box flex justify-center align-center">
+    <input placeholder="" maxlength="11" class="input" type="text" value="{{user.phone}}"
+      bindinput="phoneInput"></input>
+  </view>
+  <view class="button-row flex justify-center">
+    <view class="button flex align-center justify-center" hover-class="button-hver" bindtap="next">下一步</view>
+  </view>
+</page-model>
+
+<van-popup show="{{sms_show}}" round position="bottom" bind:close="sms_onClose">
+  <popup-title title="获取验证码"></popup-title>
+  <view class="sms-row flex justify-center">
+    <view class="sms-text">我们已经向 <text class="blue">{{user.phone}}</text> 发送了一条短信,请输入您收到的验证码：</view>
+  </view>
+  <view class="sms-code-row flex justify-center">
+    <view class="flex align-center justify-center sms-box">
+      <input placeholder="" maxlength="4" class="input" type="number" value="{{sms}}" bindinput="smsInput"></input>
+    </view>
+    <view class="sms-resend-button flex align-center justify-center" bindtap="sms_resend">{{sms_btn}}</view>
+  </view>
+  <view class="sms-btn-row flex justify-center">
+    <view class="button flex align-center justify-center" hover-class="button-hver" bindtap="sms_next">验证</view>
+  </view>
+</van-popup>
+
+<van-popup show="{{ show }}" round position="bottom" custom-style="" bind:close="onClose">
+  <van-picker wx:if="{{user.dorm_name == college[0].dorm[0].name}}" show-toolbar title="选择栋数"
+    columns="{{ college[0].dorm[0].number}}" bind:change="onChange" bind:cancel="onClose" bind:confirm="onConfirm" />
+  <van-picker wx:if="{{user.dorm_name == college[0].dorm[1].name}}" show-toolbar title="选择栋数"
+    columns="{{ college[0].dorm[1].number}}" bind:change="onChange" bind:cancel="onClose" bind:confirm="onConfirm" />
+</van-popup>
+<van-toast id="van-toast" />

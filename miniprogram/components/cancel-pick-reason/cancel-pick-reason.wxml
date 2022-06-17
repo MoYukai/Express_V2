@@ -1,0 +1,3 @@
+<view class="reason-box flex flex-direction align-center">
+<view class="select flex align-center justify-center {{selected.code == item.code ? 'active' : ''}}"  wx:for="{{list}}" data-item="{{item}}" bindtap="select" wx:key="index">{{item.desc}}</view>
+</view>

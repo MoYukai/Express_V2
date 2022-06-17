@@ -1,0 +1,35 @@
+@import "../../../../../../layout/flex.wxss";
+.outside-box{
+
+  margin-left: 78rpx;
+  width: max-content;
+}
+.box{
+  font-size: 19rpx;
+
+}
+.a{
+  width: 3rpx;
+  height: 40rpx;
+  margin-right: 48rpx;
+  background-color: #f0f0f0;
+  position: relative;
+}
+.a-dot{
+  position: absolute;
+  width: 7rpx;
+  height: 7rpx;
+  top: 16rpx;
+  left: -5rpx;
+  border:white solid 3rpx;
+  border-radius: 100%;
+  background-color: #c1c1c1;
+}
+.b{
+  color: #9d9d9d;
+  width: 130rpx;
+}
+.c{
+  font-size: 17rpx;
+  color: #d7d7d7;
+}

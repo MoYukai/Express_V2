@@ -1,0 +1,70 @@
+@import "../../../../../layout/flex.wxss";
+.tab{
+  height: auto;
+  border-radius: 16rpx;
+  background-color: #ffffff;
+  width: 100%;
+  margin: 30rpx auto;
+}
+
+.top{
+  height: 140rpx;
+}
+.left-a{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 100%;
+  margin-left: 40rpx;
+  border: rgb(235, 235, 235) solid 2rpx;
+}
+.left-b{
+  margin-left: 22rpx;
+
+}
+.left-b-1{
+  font-size: 43rpx;
+}
+.left-b-2{
+  font-size: 19rpx;
+}
+.right{
+  font-size: 18rpx;
+  margin-right: 35rpx;
+  color: rgb(177, 177, 177);
+}
+.bottom{
+  font-size: 20rpx;
+  color: rgb(63, 63, 63);
+}
+.bottom-title{
+  margin-left: 45rpx;
+  color: #333333;
+  font-size: 19rpx;
+}
+.bottom-card{
+  height: max-content;
+  margin-left: 50rpx;
+  margin-top: 20rpx;
+  margin-bottom: 10rpx;
+}
+.bottom-header{
+  width: 60rpx;
+  height: 60rpx;
+  border: rgb(235, 235, 235) solid 2rpx;
+  border-radius: 100%;
+}
+.bottom-header-nick{
+  margin-left: 18rpx;
+  color: #9D9D9D;
+}
+.progress-box{
+  margin-bottom: 35rpx;
+}
+.contact-runner{
+  font-size: 19rpx;
+  color: #313131;
+  background-color: #FFDD52;
+  padding: 15rpx 20rpx;
+  border-radius: 8rpx;
+  margin-right: 35rpx;
+}

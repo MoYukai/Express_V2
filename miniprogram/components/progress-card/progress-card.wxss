@@ -1,0 +1,25 @@
+@import "../../layout/flex.wxss";
+.card{
+  width: 100%;
+  padding: 25rpx 0;
+  background-color: #fff;
+  border-radius: 15rpx;
+  margin: 30rpx 0;
+}
+.code{
+  font-size: 40rpx;
+}
+.post{
+  font-size: 20rpx;
+}
+.left{
+  margin-left: 40rpx;
+}
+.right{
+  margin-right: 40rpx;
+  border: rgb(233, 233, 233) 2rpx solid;
+  padding: 15rpx;
+  font-size: 20rpx;
+  color: #5a5a5a;
+  border-radius: 12rpx;
+}

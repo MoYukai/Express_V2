@@ -1,0 +1,33 @@
+@import "../../../layout/flex.wxss";
+
+.tab{
+  height: 120rpx;
+  background-color: #fff;
+  margin-bottom: 2rpx;
+}
+.left{
+  margin-left: 50rpx;
+}
+.right{
+  margin-right: 50rpx;
+  font-size: 18rpx;
+  color: rgb(90, 90, 90);
+}
+.header{
+  width: 70rpx;
+  height: 70rpx;
+}
+.nick{
+  font-size: 24rpx;
+  color: rgb(78, 78, 78);
+}
+.desc{
+  font-size: 20rpx;
+  color: rgb(167, 167, 167);
+}
+.text-box{
+  margin-left: 20rpx;
+}
+.row-hover{
+  background-color: #fafafa;
+}

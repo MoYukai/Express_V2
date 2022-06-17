@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "van-popup": "@vant/weapp/popup/index",
+    "page-model":"../../components/page-model/page-model",
+    "me-header":"../../components/me-header/me-header",
+    "me-month-card":"../../components/me-month-card/me-month-card",
+    "me-account-tab":"../../components/me-account-tab/me-account-tab",
+    "me-container":"../../components/me-container/me-container",
+    "me-order-tab":"../../components/me-order-tab/me-order-tab",
+    "me-service-tab":"../../components/me-service-tab/me-service-tab"
+  },
+  "navigationBarTitleText": "我的",
+  "backgroundColorTop": "#F4F4F4",
+  "navigationBarBackgroundColor": "#F4F4F4"
+}

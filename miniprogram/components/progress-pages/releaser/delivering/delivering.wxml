@@ -1,0 +1,33 @@
+<page-model bottom="10">
+
+
+<progress-none wx:if="{{deliveringList == ''}}">
+</progress-none>
+
+<progress-card 
+wx:if="{{deliveringList  != ''}}" 
+wx:for="{{deliveringList}}" 
+bind:detail="detail" 
+code="{{item.code}}"
+name="{{item.poster}}" 
+data-popidx="{{index}}" 
+wx:key="index">
+
+</progress-card>
+
+
+</page-model>
+
+<van-popup id="pop" show="{{ show }}" round position="bottom" bind:close="hidePop" wx:if="{{show}}">
+  <popup-title title="订单详情"></popup-title>
+  <popup-item title="取件码:">
+    <code-show code="{{deliveringPop.code}}" name="{{deliveringPop.poster}}"></code-show>
+  </popup-item>
+  <popup-item title="配送至:">
+    <address-tab arrow="{{false}}" name="{{deliveringPop.userAddress.name}}" phone="{{deliveringPop.userAddress.phone}}"
+      address="{{deliveringPop.userAddress.college_name}} {{deliveringPop.userAddress.dorm_name}} {{deliveringPop.userAddress.dorm_number}}栋 {{deliveringPop.userAddress.room}} ">
+    </address-tab>
+  </popup-item>
+  <popup-button bind:cancel="cancel" bind:back="back" cancel="取消订单" back="返回" data-ids="{{deliveringPop._id}}">
+  </popup-button>
+</van-popup>

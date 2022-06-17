@@ -1,0 +1,47 @@
+@import "../../layout/flex.wxss";
+.tab{
+  width: 550rpx;
+  height: max-content;
+}
+.title{
+  font-size: 35rpx;
+  margin-top: 30rpx;
+  font-weight: bold;
+  margin-bottom: 50rpx;
+}
+.contant{
+  height: max-content;
+  width: 400rpx;
+  margin-bottom: 30rpx;
+}
+.qr-code{
+  height: 250rpx;
+  width: 250rpx;
+  background-color: rgb(202, 202, 202);
+}
+.price{
+  font-size: 45rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+
+}
+.button{
+  margin-top: 40rpx;
+  border-radius: 10rpx;
+  padding: 15rpx 33rpx;
+  font-size: 23rpx;
+  background-color: #F6C543;
+  font-weight: bold;
+}
+.desc-1{
+  font-size: 21rpx;
+  margin-top: 50rpx;
+  font-weight: bold;
+  color: rgb(49, 49, 49);
+}
+.desc-2{
+  font-size: 21rpx;
+  margin-top: 5rpx;
+  font-weight: bold;
+  color: rgb(255, 124, 37);
+}

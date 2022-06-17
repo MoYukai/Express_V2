@@ -1,0 +1,16 @@
+<van-popup show="{{ show }}" round position="bottom" custom-style="" bind:close="onClose">
+    <view class="title flex align-center justify-center">欢迎入驻!</view>
+    <view class="text1 flex align-center justify-between">
+        <view>识别到您的校区为：中山大学</view>
+        <view class="link">手动定位</view>
+    </view>
+    <view class="map">
+    </view>
+    <view class="text2">成为该校区的业务负责人，躺着赚钱！</view>
+    <view class="text2">袋友是谁？是做什么的？点击 <text class="link">了解详情</text> </view>
+    <view class="button-group flex justify-between">
+    <view class="button-a" hover-class="hover">我再想想</view>
+    <view class="button-b" hover-class="hover">立即申请</view>
+    </view>
+
+</van-popup>

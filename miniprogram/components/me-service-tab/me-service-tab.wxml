@@ -1,0 +1,8 @@
+<van-grid border="{{false}}" column-num="4">
+  <van-grid-item icon="/static/service-tab/wallet.png" text="我的钱包" link-type="navigateTo" url="/pages/wallet/wallet"/>
+  <van-grid-item icon="/static/service-tab/address.png" text="修改地址" link-type="navigateTo" url="/pages/address/address"/>
+  <van-grid-item icon="/static/service-tab/service.png" text="联系客服" link-type="navigateTo" url="/pages/customer-service/customer-service" />
+  <van-grid-item icon="/static/service-tab/shop.png" text="加盟入驻" link-type="navigateTo" url="/pages/user-info/user-info" />
+  <van-grid-item icon="/static/service-tab/coupon.png" text="优惠兑换" link-type="navigateTo" url="/pages/coupon-changers/coupon-changers" />
+  <van-grid-item wx:if="{{authLev == 0}}" icon="/static/service-tab/calendar.png" text="运营数据" link-type="navigateTo" url="/pages/admin/operation-index/operation-index" />
+</van-grid>

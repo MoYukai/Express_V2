@@ -1,0 +1,19 @@
+<page-model>
+    <view class="tab tab-1 flex flex-direction align-center">
+        <view class="code">
+        </view>
+        <view class="text">
+            截图分享给12个好友
+        </view>
+        <view class="text-2">
+            立得6.6红包
+        </view>
+    </view>
+    <view class="tab tab-2 flex flex-direction align-center">
+        <view class="tab-title">已有10位朋友扫码</view>
+        <view></view>
+    </view>
+    <view class="tab tab-3 flex flex-direction align-center">
+        <view class="tab-title">历史记录</view>
+    </view>
+</page-model>

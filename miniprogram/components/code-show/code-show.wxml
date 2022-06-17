@@ -1,0 +1,4 @@
+<view class="box flex flex-direction justify-start">
+<view class="code">{{code}}</view>
+<view class="name">{{name}}</view>
+</view>

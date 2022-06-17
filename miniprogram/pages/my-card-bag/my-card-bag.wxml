@@ -1,0 +1,21 @@
+<card-tab title="已购卡包">
+   <cardbag 
+   wx:if="{{monthCardType}}"
+   remain = "{{cardRemain}}"
+   bindtap="monthCardDetail"
+   >
+   
+   </cardbag>
+   <view 
+   bindtap="monthCardDetail"
+   wx:if="{{!monthCardType}}" 
+   class="trial" 
+   bindtap="monthCardDetail"
+   >
+   去购买月卡
+   </view>
+
+</card-tab>
+<card-tab title="体验卡包">
+  <view class="trial" bindtap="getTrial">领取体验券</view>
+</card-tab>

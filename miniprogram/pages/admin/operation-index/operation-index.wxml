@@ -1,0 +1,108 @@
+<!-- <view class="card">
+  <view class="card-title flex align-center">
+    <view class="card-title-one"></view>
+    <view class="card-title-two">营收</view>
+    <view class="card-title-three flex align-center">
+      <image src="../../../static/icon/jiantou.png" mode="widthFix"></image>
+    </view>
+  </view>
+  <view class="card-content flex align-center">
+
+    <view class="card-content-one">
+      <view class="card-content-title">今日收入</view>
+      <view class="card-content-money">
+        <m>￥</m>
+        <kk>0.00<view class="card-content-flow">0.00流水</view>
+        </kk>
+        <liney></liney>
+      </view>
+    </view>
+
+
+    <view class="card-content-two">
+      <view class="card-content-title">本月收入</view>
+      <view class="card-content-money">
+        <m>￥</m>
+        <kk>0.00<view class="card-content-flow">0.00流水</view>
+        </kk>
+        <liney></liney>
+      </view>
+    </view>
+
+  </view>
+</view> -->
+
+<view class="card">
+  <view class="card-title flex align-center" bindtap="gotoUserPanel">
+    <view class="card-title-one"></view>
+    <view class="card-title-two">用户整体情况</view>
+    <view class="card-title-three flex align-center">
+      <image src="../../../static/icon/jiantou.png" mode="widthFix"></image>
+    </view>
+  </view>
+  <view class="card-content flex align-center">
+    <view class="card-content-one">
+      <view class="card-content-title2">今日新增</view>
+      <view class="card-content-num">{{user.count.today}}</view>
+    </view>
+    <view class="card-content-two">
+      <view class="card-content-title2">总用户数</view>
+      <view class="card-content-num">{{user.count.all}}</view>
+    </view>
+  </view>
+</view>
+
+<view class="card">
+  <view class="card-title flex align-center"  bindtap="orderPanel">
+    <view class="card-title-one"></view>
+    <view class="card-title-two">今日订单<text class="card-title-two-i">(共{{order.count.today.all}}单)</text></view>
+    <view class="card-title-three flex align-center">
+      <image src="../../../static/icon/jiantou.png" mode="widthFix"></image>
+    </view>
+  </view>
+  <view class="card-content flex align-center">
+    <view class="card-content-one">
+      <view class="card-content-title2">等待中</view>
+      <view class="card-content-num">{{order.count.today.wait}}</view>
+    </view>
+    <view class="card-content-two">
+      <view class="card-content-title2">进行中</view>
+      <view class="card-content-num">{{order.count.today.pro}}</view>
+    </view>
+    <view class="card-content-one">
+      <view class="card-content-title2">已送达</view>
+      <view class="card-content-num">{{order.count.today.done}}</view>
+    </view>
+    <view class="card-content-two">
+      <view class="card-content-title2">异常</view>
+      <view class="card-content-num">{{order.count.today.error}}</view>
+    </view>
+  </view>
+</view>
+
+<view class="card">
+  <view class="card-title flex align-center" bindtap="gotoToolPanel">
+    <view class="card-title-one"></view>
+    <view class="card-title-two">工具</view>
+    <view class="card-title-three flex align-center">
+      <image src="../../../static/icon/jiantou.png" mode="widthFix"></image>
+    </view>
+  </view>
+  <view class="card-content flex align-center">
+    <view class="card-content-one" bindtap="gotoGift">
+      <view class="card-content-toolpic flex align-center">
+        <image src="../../../static/icon/redeem.png" mode="widthFix"></image>
+      </view>
+      <view class="card-content-toolpic-text ">生成兑换码</view>
+    </view>
+    <view class="card-content-one" bindtap="gotoSearch">
+      <view class="card-content-toolpic flex align-center">
+        <image src="../../../static/icon/search.png" mode="widthFix"></image>
+      </view>
+      <view class="card-content-toolpic-text ">查找</view>
+    </view>
+  </view>
+</view>
+
+<view class="oqp"></view>
+<van-toast id="van-toast" />

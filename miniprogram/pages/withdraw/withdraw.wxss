@@ -1,0 +1,58 @@
+@import "../../layout/flex.wxss";
+.value-class {
+  flex: none !important;
+}
+.withdraw-way{
+  margin-left: -30rpx;
+}
+.title-class{
+  margin-left: 16rpx;
+}
+.withdraw{
+  height: max-content;
+}
+.input{
+  height: max-content;
+}
+.withdraw-tip{
+  background-color: #F7F7F7;
+  height: max-content;
+  width: 620rpx;
+  border-radius: 11rpx;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  padding: 15rpx 0;
+}
+.withdraw-tip-title{
+  font-size: 21rpx;
+  margin-left: 22rpx;
+}
+.withdraw-tip-text{
+  margin-top: 15rpx;
+  font-size: 19rpx;
+  margin-left: 22rpx;
+  color: #979797;
+}
+
+.bottom-btn{
+  background-image: linear-gradient(90deg, #F09964 0%, #EB6745 100%);
+  color: white;
+  font-weight: normal;
+  text-align: center;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-radius: 12rpx;
+  position: fixed;
+  bottom: 0rpx;
+  width: 90%;
+  margin-bottom: 15rpx;
+}
+.btn-hover{
+  opacity: 0.8;
+}
+.history{
+  color: rgb(107, 171, 255);
+  font-size: 28rpx;
+  text-align: center;
+  margin-top: 30rpx;
+}

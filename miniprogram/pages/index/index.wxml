@@ -1,0 +1,32 @@
+<background height="180">
+  <page-model>
+    <index-header id="header" bind:header="header" bind:arrow="header_arrow" in_neu="{{in_neusoft}}"></index-header>
+    <tips-button id="uploadQRCode" wx:if="{{haveOrder}}" bind:button="uploadQRCode"></tips-button>
+    <index-codeTab bind:next="next" bind:free="free"></index-codeTab>
+    <month-card bind:buy="buyMonthCard" bind:monthCardHelp="monthCardHelp" monthCardType="{{monthCardType}}">
+    </month-card>
+    <cutting-line></cutting-line>
+    <join-tab bind:join="join"></join-tab>
+    <join-us show="{{join_popup_show}}" bind:close="join_popup_onclose"></join-us>
+    <view class="index-tab-bg">
+
+    <image wx:if="{{in_neusoft}}" class="index-tab-ad" mode="widthFix" src="../../static/images/jiaxiao.jpeg" show-menu-by-longpress></image>
+    </view>
+    
+  </page-model>
+</background>
+<van-toast id="van-toast" />
+<van-popup show="{{new_pop_show}}" bind:close="onClose" round="true" closeable>
+<view class="new-pop">
+<view class="text-1">恭喜你获得价值<red>5元</red>的</view>
+<view class="text-2">快递代拿抵用券</view>
+<image class="baoxiang" src="../../static/images/baoxiang.jpeg" mode="widthFix"></image>
+<view class="new-pop-cd">
+  <van-count-down  use-slot time="{{time}}" bind:change="onChange" bind:finish="countFinish">
+  <text class="item">{{timeData.seconds}}</text><text>S后失效</text> 
+</van-count-down>
+
+</view>
+<view class="new-pop-btn" hover-class="btn-hover" bindtap="new_pop_btn">领取并使用</view>
+</view>
+</van-popup>

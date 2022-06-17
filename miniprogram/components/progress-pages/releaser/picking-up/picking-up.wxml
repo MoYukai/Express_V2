@@ -1,0 +1,19 @@
+<page-model bottom="10">
+
+  <progress-none wx:if="{{pickingList == ''}}">
+  </progress-none>
+
+  <progress-card 
+  wx:if="{{pickingList  != ''}}" 
+  wx:for="{{pickingList}}" 
+  wx:key="index"
+  bind:detail="detail"
+  
+  code="{{item.code}}"
+  name="{{item.poster}}" 
+  data-popidx="{{index}}" 
+  >
+
+  </progress-card>
+
+</page-model>

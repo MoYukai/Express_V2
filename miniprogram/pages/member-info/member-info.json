@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+      "van-field": "@vant/weapp/field/index",
+      "van-button": "@vant/weapp/button/index"
+  },
+  "navigationBarTitleText": "加盟入驻",
+  "backgroundColorTop": "#F4F4F4",
+  "navigationBarBackgroundColor": "#ffffff"
+}

@@ -1,0 +1,14 @@
+@import "../../layout/flex.wxss";
+
+.input{
+  font-size: 35rpx;
+}
+.code-box{
+  height: 80rpx;
+  width: 430rpx;
+  border-radius: 10rpx;
+  border: rgb(221, 221, 221) 2rpx solid;
+  margin-top: 32rpx;
+  padding: 0 30rpx;
+
+}

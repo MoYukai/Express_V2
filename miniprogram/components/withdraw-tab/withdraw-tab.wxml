@@ -1,0 +1,6 @@
+<view class="tab flex flex-direction">
+  <view class="title">{{title}}</view>
+  <view class="number">
+    <slot></slot>
+  </view>
+</view>

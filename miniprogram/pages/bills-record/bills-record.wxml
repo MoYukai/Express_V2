@@ -1,0 +1,8 @@
+<page-model>
+<bill-unit desc="{{item.describe}}" time="{{item.timestamp}}" 
+price="{{item.balanceDelta > 0 ? '+'+item.balanceDelta/ 100 : item.balanceDelta/ 100 }}" wx:for="{{bills}}">
+</bill-unit>
+<progress-none title="无账单" bind:noneBtn="noneBtn" wx:if="{{bills == ''}}" none="{{false}}">
+
+</progress-none>
+</page-model>

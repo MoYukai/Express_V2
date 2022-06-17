@@ -1,0 +1,28 @@
+@import "../../layout/flex.wxss";
+.tab{
+  height: max-content;
+  width: 100%;
+  background-color: #fff;
+  margin-top: 40rpx;
+  border-radius: 15rpx;
+  padding-bottom: 50rpx;
+}
+.top{
+  height: 90rpx;
+  width: 90%;
+  margin-bottom: 10rpx;
+}
+.top-icon{
+  width: 10rpx;
+  height: 39rpx;
+  background-color: #E3C5A1;
+  margin-right: 20rpx;
+}
+.top-title{
+  font-weight: bold;
+  color: rgb(48, 48, 48);
+}
+.content{
+  width: 90%;
+  min-height: 100rpx;
+}

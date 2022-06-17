@@ -1,0 +1,30 @@
+@import "../../layout/flex.wxss";
+.code{
+  font-size: 40rpx;
+}
+.name{
+  font-size: 20rpx;
+}
+.box{
+  height: max-content;
+  width: 400rpx;
+}
+.call-box-icon{
+  width: 38rpx;
+  height: 38rpx
+}
+
+.call-box-desc{
+  font-size: 16rpx;
+  color: #a3a3a3;
+}
+
+
+.call-box{
+  height: 68rpx;
+  border-radius: 13rpx;
+  padding: 10rpx;
+}
+.call-box-hover{
+  background-color: rgb(247, 247, 247);
+}

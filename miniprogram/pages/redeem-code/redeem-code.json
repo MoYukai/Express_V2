@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "page-model":"../../components/page-model/page-model",
+    "redeem-code-unit":"../../components/redeem-code-unit/redeem-code-unit",
+    "van-divider": "@vant/weapp/divider/index",
+    "popup-show-code":"../../components/popup-show-code/popup-show-code",
+    "redeem-code-null":"../../components/redeem-code-null/redeem-code-null",
+    "painter":"../../components/painter/painter"
+  },
+  "navigationBarTitleText": "核销码",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColorTop": "#f4f4f4"
+
+}

@@ -1,0 +1,9 @@
+<view class="tab flex flex-direction align-center">
+<view class="top flex align-center">
+<view class="top-icon"></view>
+<view class="top-title">{{title}}</view>
+</view>
+<view class="content flex justify-center">
+<slot></slot>
+</view>
+</view>

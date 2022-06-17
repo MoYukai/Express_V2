@@ -1,0 +1,71 @@
+@import "../../layout/flex.wxss";
+.tab{
+  background-color: #1B1B1B;
+  height: 110rpx;
+  width: 600rpx;
+  border-radius: 15rpx;
+  color: #F3D7B2;
+  font-size: 22rpx;
+}
+
+.icon{
+  width: 30rpx;
+  height: auto;
+  margin-left: 25rpx;
+}
+
+.text{
+  margin-left: 13rpx;
+  font-size: 27rpx;
+}
+
+.num{
+  color: #F3D7B2;
+}
+.num-big{
+  font-size: 33rpx;
+  color: #F3D7B2;
+}
+.num-desc{
+  color: white;
+}
+.radio{
+  margin: 0 27rpx;
+  height:29rpx;
+  width: 29rpx;
+  border: #F3D7B2 solid 2rpx;
+  border-radius: 100%;
+}
+.radio-selected{
+  margin: 0 27rpx;
+  width: 35rpx;
+  height: 35rpx;
+}
+
+.right,.left{
+  height: 60rpx;
+}
+.right{
+  width: 230rpx;
+}
+
+.text-bought{
+  margin-left: 30rpx;
+  font-size: 27rpx;
+}
+.arrow-right{
+  width: 30rpx;
+  height: 30rpx;
+
+}
+.right-bought{
+  width: 150rpx;
+  margin-right: 30rpx;
+}
+.remain{
+  font-size: 17rpx;
+  height: 50rpx;
+}
+.remain-a{
+  color: white;
+}

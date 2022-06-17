@@ -1,0 +1,11 @@
+<view class="tab flex align-center justify-center">
+  <view class="tab-inner flex align-center justify-between">
+  <view class="left flex flex-direction justify-between">
+    <view class="left-title">我的卡券</view>
+    <view class="left-text"><text class="left-text-big">{{cardRemain}}</text> 张 代金券</view>
+  </view>
+  <view class="right">
+   <view class="right-btn" bindtap="detail">查看详情</view> 
+  </view>
+</view>
+</view>

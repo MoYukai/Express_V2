@@ -1,0 +1,91 @@
+page{
+  background-color: #F4F4F4;
+}
+.scan{
+  height: 200rpx;
+  width: 200rpx;
+  margin: 0 auto;
+  box-shadow: 0px 5px 10px rgb(0, 0, 0, 0.05);
+  margin-top:80rpx;
+  border-radius: 100%;
+  background-color: white;
+}
+.scan image{
+  width: 90rpx;
+}
+
+.scan-tit{
+  font-size:33rpx;
+  margin: 0 auto;
+  width: max-content;
+  margin-top:50rpx;
+  font-weight: 700;
+  color: #434343;  
+}
+.oqp{
+  height: 70rpx;
+}
+.content{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content middle{
+  color: #B7B7B7;
+  font-size:22rpx;
+
+}
+
+
+.content left,right{
+width: 200rpx;
+background-color: #EAEAEA;
+height: 5rpx;
+}
+
+.content-item{
+  height: 120rpx;
+  width: 90%;
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 25rpx;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content-item one{
+  background-color: rgb(235, 235, 235);
+  height: 70rpx;
+  width:70rpx;
+  margin-left: 40rpx;
+  border-radius: 100%;
+}
+.content-item two{
+  width: 290rpx;
+
+}
+.content-item three{
+  position: relative;
+  font-size: 37rpx;
+  width: 100rpx;
+}
+.content-item>three>co{
+  position: absolute;
+  left: -30rpx;
+  font-size:27rpx;
+
+}
+.content-item four{
+  font-size: 18rpx;
+  width: 70rpx;
+  color: #7e7e7e;
+  margin-right: 35rpx;
+}
+.scroll-class-list{
+  height: 850rpx;
+  width: 100%;
+}
+.zhanwei-class{
+  height: 200rpx;
+  width: 100%;
+}

@@ -1,0 +1,43 @@
+<wxs module="dateUtil" src="../../utils/timeFilter.wxs"></wxs>
+<page-model>
+
+  <month-card-big 
+  bind:buy="buyMonthCard" 
+  buy="{{monthCardStatus}}" 
+  count="{{monthCardCount}}"
+  bind:use="useMonthCard"
+  expire="{{dateUtil.dateFormat(expire,'YYYY-MM-dd')}}"
+  >
+  </month-card-big>
+  <title-a title="卡片权益" desc="*购买月卡后生效"></title-a>
+  <month-card-item 
+  title="快递代拿免费" 
+  desc="今日可用{{remain}}次" 
+  icon="../../static/icon/free.svg" 
+  bind:use="use"
+  >
+  </month-card-item>
+  <month-card-item 
+  title="送货到楼" 
+  desc="无限次" 
+  icon="../../static/icon/upstairs.svg" 
+  bind:use="use"
+  >
+  </month-card-item>
+<view>
+<title-a title="卡片规则" desc=""></title-a>
+<view class="tab">
+<view class="tab-in">
+<view class="tab-line">1.月卡仅限本人使用，为了每一位小袋鼠的体验，任何将月卡与其他人共享的行为都是被禁止的，我们会利用技术手段，对涉及月卡共享的账号，进行收回月卡处理 2.月卡免费只包含小件</view>
+</view>
+
+<!-- <view class="tab-line">2.购买了月卡的小袋鼠，一个月只能修改两次收货地址，请谨慎操作</view> -->
+
+
+</view>
+
+</view>
+</page-model>
+
+<van-toast id="van-toast" />
+<van-dialog confirm-button-color="#FF9403" id="van-dialog" />

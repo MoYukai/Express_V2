@@ -1,0 +1,28 @@
+@import "../../layout/flex.wxss";
+.college{
+  font-size: 28rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+}
+.college-out{
+  font-size: 25rpx;
+  font-weight: bold;
+  margin-left: 20rpx;
+  color: rgb(73, 73, 73);
+}
+.header{
+  height: 60rpx;
+  width: 60rpx;
+  border-radius: 100%;
+  overflow: hidden;
+  background-color: rgb(151, 151, 151);
+}
+.header image{
+  width: 60rpx;
+  height: 60rpx;
+}
+.arrow{
+  height: 50rpx;
+  width: 50rpx;
+  margin-left: 0rpx;
+}

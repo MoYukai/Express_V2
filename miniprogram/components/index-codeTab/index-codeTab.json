@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "code-input" : "../code-input/code-input"
+  }
+}

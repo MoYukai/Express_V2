@@ -1,0 +1,6 @@
+<wxs module="dateUtil" src="../../../../../utils/timeFilter.wxs"></wxs>
+<wxs module="filter" src="../../../../../Filter/index.wxs"></wxs>
+
+<user-row wx:for="{{userList}}" wx:key="index" time="{{dateUtil.dateFormat(filter.cdbDate(item.createTimestamp),'MM/dd hh:mm')}}"
+nick="{{item.userInfo.data.nickName}}"
+></user-row>

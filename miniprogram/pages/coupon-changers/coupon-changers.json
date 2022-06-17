@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "page-model":"../../components/page-model/page-model",
+    "release-tab":"../../components/release-tab/release-tab",
+    "code-input":"../../components/code-input/code-input"
+  },
+  "navigationBarTitleText": "优惠兑换",
+  "navigationBarBackgroundColor": "#ffffff"
+}

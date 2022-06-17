@@ -1,0 +1,112 @@
+<van-tabs id="tabs" active="{{ active }}" color="#FFDE6A" sticky animated>
+  <van-tab title="取件中" dot="{{dotList[0]}}">
+    <van-notice-bar
+  left-icon="volume-o"
+  scrollable
+  text="配送时间统一为中午12点30分和下午5点30分，如等待时间过长，请联系袋友速递客服，我们将竭诚为您服务~"
+/>
+    <picking-up 
+    id="picking-up"
+    bind:detail="pickingDetail"
+    >
+    </picking-up>
+  </van-tab>
+  <van-tab title="派送中" dot="{{dotList[1]}}">
+    <delivering
+    id="delivering"
+    bind:detail="deliveringDetail"
+    >
+    </delivering>
+  </van-tab>
+  <van-tab title="已完成" dot="{{dotList[2]}}">
+    <completed
+    id="completed"
+    bind:detail="completedDetail"
+    ></completed>
+  </van-tab>
+  <van-tab title="取消/退款" dot="{{dotList[3]}}">
+    <cancelled 
+    id="cancelled" 
+    bind:detail="cancelledDetail"
+    ></cancelled>
+  </van-tab>
+</van-tabs>
+
+<!-- 取件中 弹窗 -->
+<pickingup-popup 
+bind:hidePop="_hideAllPop" 
+bind:back="_hideAllPop"
+bind:reLoad="reLoad"
+bind:cancel="pickingPopCancel"
+
+show="{{pickingShow}}" 
+pop="{{pickingPop}}" 
+data-pop="{{pickingPop}}"
+>
+</pickingup-popup>
+<!-- 取件中 弹窗 -->
+
+<!-- 派送中弹窗 -->
+<delivering-popup 
+bind:hidePop="_hideAllPop" 
+bind:back="_hideAllPop"
+bind:reLoad="reLoad"
+
+show="{{deliveringShow}}" 
+pop="{{deliveringPop}}" 
+
+bind:cancel="pickingPopCancel"
+
+data-pop="{{pickingPop}}"
+>
+</delivering-popup>
+<!-- 派送中弹窗 -->
+
+<!-- 已完成弹窗 -->
+<completed-popup
+bind:hidePop="_hideAllPop" 
+bind:back="_hideAllPop"
+bind:reLoad="reLoad"
+
+show="{{completedShow}}" 
+pop="{{completedPop}}" 
+>
+
+</completed-popup>
+<!-- 已完成弹窗 -->
+
+<!-- 取消/退款 弹窗 -->
+<cancelled-popup
+bind:hidePop="_hideAllPop" 
+bind:back="_hideAllPop"
+bind:reLoad="reLoad"
+bind:refundDetail="refundDetail"
+
+show="{{cancelledShow}}"
+pop="{{cancelledPop}}"
+>
+</cancelled-popup>
+<!-- 取消/退款 弹窗 -->
+
+<van-dialog
+  use-slot
+  title="恭喜获得免单资格"
+  show="{{show}}"
+  bind:close="onClose"
+  bind:cancel="onCancel"
+  bind:confirm="confirm"
+  confirmButtonText="立即去分享"
+  confirm-button-color="#FF9403"
+  showCancelButton
+  cancelButtonText="我再想想"
+  confirmButtonOpenType="share"
+>
+<view class="wx-image-out flex flex-direction align-center">
+  <image class="wx-image" show-menu-by-longpress src="../../static/images/baoxiang.jpeg" mode="widthFix"/>
+  <view class="wx-image-text">分享给<red> 新用户</red>，对方在1小时内点击进入小程序后，本单免费！免单形式为发放免单券</view>
+</view>
+
+</van-dialog>
+
+<van-dialog id="van-dialog" confirm-button-color="#FF9403"/>
+<van-toast id="van-toast" />

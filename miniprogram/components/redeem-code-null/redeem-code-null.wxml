@@ -1,0 +1,5 @@
+<view class="tab flex flex-direction align-center">
+<image class="top" src="../../static/icon/empty.png" mode="widthFix"></image>
+<view class="top2">你还没有核销码</view>
+<view class="top3" hover-class="hover" bindtap="button">去兑换</view>
+</view>

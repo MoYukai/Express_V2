@@ -1,0 +1,42 @@
+<van-popup show="{{show}}" round position="bottom" bind:close="hidePop">
+
+  <popup-title title="订单详情"></popup-title>
+  <popup-item title="取件码:" >
+    <code-show2 code="{{pop.code}}" name="{{pop.poster}}" bind:makeCall="call"></code-show2>
+  </popup-item>
+  <popup-item title="配送至:">
+    <address-tab arrow="{{false}}" name="{{pop.userAddress.name}}" phone="{{pop.userAddress.phone}}"
+      address="{{pop.userAddress.college_name}} {{pop.userAddress.dorm_name}} {{pop.userAddress.dorm_number}}栋 {{pop.userAddress.room}} ">
+    </address-tab>
+  </popup-item>
+  <popup-item title="身份码:" height="250">
+
+    <image wx:if="{{idcode.path}}" src="{{idcode.path}}" 
+    class="image"
+    mode="aspectFill"
+    bindtap="showPic"
+    data-img="{{idcode.path}}"
+    > </image>
+    <view class="image flex align-center justify-center" wx:if="{{!idcode.path}}">
+      <van-loading  size="24px" vertical>加载中...</van-loading>
+    </view>
+
+  </popup-item>
+  <popup-button bind:cancel="back" bind:back="orderDelivery" cancel="取消接单" back="确认取货" data-pop="{{pop}}" bottom="120">
+  </popup-button>
+</van-popup>
+
+<van-dialog
+  use-slot
+  title="选择原因"
+  show="{{ cancel_show }}"
+  show-cancel-button
+  bind:close="cancel_close"
+  bind:confirm="cancel_confirm"
+  confirmButtonText="提交"
+  cancelButtonText="我再想想"
+  confirm-button-color="#FF9403"
+  cancel-button-color="#404040"
+>
+<cancel-pick-reason bind:select="select"></cancel-pick-reason>
+</van-dialog>

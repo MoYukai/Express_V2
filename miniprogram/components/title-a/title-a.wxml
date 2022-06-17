@@ -1,0 +1,5 @@
+<view class="tab flex align-center">
+<view class="titler"></view>
+<view class="title">{{title}}</view>
+<view class="desc">{{desc}}</view>
+</view>

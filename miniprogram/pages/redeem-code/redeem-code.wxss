@@ -1,0 +1,11 @@
+.blue{
+  color: #00B4FF;
+  margin-left: 13rpx;
+}
+.canvas-class{
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  position: fixed;
+  left: 10000px;
+}

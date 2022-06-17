@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "page-model":"../../components/page-model/page-model",
+    "withdraw-tab":"../../components/withdraw-tab/withdraw-tab",
+    "van-radio": "@vant/weapp/radio/index",
+    "van-radio-group": "@vant/weapp/radio-group/index",
+    "van-cell": "@vant/weapp/cell/index",
+  "van-cell-group": "@vant/weapp/cell-group/index",
+  "van-dialog": "@vant/weapp/dialog/index"
+  },
+  "navigationBarTitleText": "提现",
+  "backgroundColorTop": "#F4F4F4",
+  "navigationBarBackgroundColor": "#ffffff"
+
+}

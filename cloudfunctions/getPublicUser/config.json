@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "openapi": [
+    ]
+  },
+  "triggers": [{
+    "name": "getOpenIdList",
+    "type": "timer",
+    "config": "0 0 10 * * * *"
+  }]
+}

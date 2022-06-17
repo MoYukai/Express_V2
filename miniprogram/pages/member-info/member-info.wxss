@@ -1,0 +1,5 @@
+@import "../../layout/flex.wxss";
+.button{
+  width: 100%;
+  margin-top: 90rpx;
+}

@@ -1,0 +1,28 @@
+
+<van-popup  show="{{ show }}" round position="bottom" bind:close="hidePop">
+  
+  <popup-title title="{{pop.status_code == 1  ? '等待接单中' : '已被接单'}} "></popup-title>
+  <popup-item title="取件码:">
+    <code-show code="{{pop.code}}" name="{{pop.poster}}"></code-show>
+  </popup-item>
+  <popup-item title="配送至:">
+    <address-tab arrow="{{false}}" name="{{pop.userAddress.name}}" phone="{{pop.userAddress.phone}}"
+      address="{{pop.userAddress.college_name}} {{pop.userAddress.dorm_name}} {{pop.userAddress.dorm_number}}栋 {{pop.userAddress.room}} ">
+    </address-tab>
+  </popup-item>
+  <popup-item wx:if="{{pop.status_code == 2}}" title="配送员:">
+  <view class="flex flex-direction align-center box">
+  <image class="box-icon" src="../../../../../static/icon/header-null.svg">w</image>
+  <view class="box-text">小袋鼠</view>
+  </view>
+  </popup-item>
+  <popup-button wx:if="{{!pop.pickerData}}" bind:cancel="cancel" bind:back="back" cancel="取消订单" back="返回" data-ids="{{pop._id}}"
+  bottom="120"
+  >
+  </popup-button>
+  <popup-button wx:if="{{pop.pickerData}}" bind:cancel="call" bind:back="back" cancel="联系对方" back="返回" data-pop="{{pop}}"
+  bottom="120"
+  >
+  </popup-button>
+</van-popup> 
+

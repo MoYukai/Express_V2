@@ -1,0 +1,42 @@
+@import "../../layout/flex.wxss";
+.tab{
+  height: max-content;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 15rpx;
+  color: #5A5A5A;
+  padding: 35rpx 0;
+}
+.title{
+  font-size: 35rpx;
+  font-weight: bold;
+  color: #292929;
+  margin-left: 35rpx;
+}
+.text{
+  font-size: 25rpx;
+  margin-left:35rpx;
+  margin-top: 10rpx;
+}
+.button{
+  width: 200rpx;
+  height: 60rpx;
+  background-color: #FFC403;
+  color: #3C3C3C;
+  font-size: 25rpx;
+  border-radius: 10rpx;
+  font-weight: bold;
+  margin-right: 35rpx;
+}
+.icon{
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 15rpx;
+}
+.btn-hover{
+  opacity: 0.8;
+}
+.box{
+  width: 100%;
+  margin-top: 30rpx;
+}

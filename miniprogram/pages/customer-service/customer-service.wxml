@@ -1,0 +1,6 @@
+<page-model>
+<view class="tab">
+<view class="title">长按下方名片，添加客服微信，领取新用户红包</view>
+<image show-menu-by-longpress class="kefu" mode="widthFix" src="../../static/images/kefu.jpg"></image>
+</view>
+</page-model>

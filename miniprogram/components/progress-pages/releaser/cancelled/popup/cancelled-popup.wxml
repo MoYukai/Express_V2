@@ -1,0 +1,24 @@
+
+<van-popup  show="{{show}}" round position="bottom" bind:close="hidePop">
+  
+  <popup-title title="{{pop.status_code == -2 ? '订单已取消' : '订单被取消'}}"></popup-title>
+  <popup-item title="取件码:">
+    <code-show code="{{pop.code}}" name="{{pop.poster}}"></code-show>
+  </popup-item>
+  <popup-item title="配送至:">
+    <address-tab arrow="{{false}}" name="{{pop.userAddress.name}}" phone="{{pop.userAddress.phone}}"
+      address="{{pop.userAddress.college_name}} {{pop.userAddress.dorm_name}} {{pop.userAddress.dorm_number}}栋 {{pop.userAddress.room}} ">
+    </address-tab>
+  </popup-item>
+  <popup-item wx:if="{{pop.status_code == -3}}" title="取消原因:">
+    <view class="reason">{{pop.status[pop.status.length - 1].reason.desc}}</view>
+  </popup-item>
+  <popup-item title="退款:">
+    <view class="refund" bindtap="refundDetail">退款已经入账到钱包，请查收 ></view>
+  </popup-item>
+  <popup-button bind:cancel="cancel" bind:back="back" cancel="取消订单" back="返回" data-ids="{{pop._id}}"
+  bottom="120"
+  single="{{true}}"
+  >
+  </popup-button>
+</van-popup> 

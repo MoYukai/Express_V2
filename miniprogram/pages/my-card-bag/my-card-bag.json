@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "card-tab":"../../components/card-tab/card-tab",
+    "month-card-big":"../../components/month-card-big/month-card-big",
+    "cardbag":"../../components/cardbag/cardbag"
+  },
+  "navigationBarTitleText": "我的卡包",
+  "navigationBarBackgroundColor": "#f4f4f4",
+  "backgroundColorTop": "#f4f4f4"
+  
+}

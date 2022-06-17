@@ -1,0 +1,5 @@
+<view class="bg-top" style="height:{{height}}rpx;padding-top:{{paddingTop}}rpx">
+<slot></slot>
+</view>
+<image class="bg-top2" src="../../static/background/index-arc.png" mode="widthFix">
+</image>

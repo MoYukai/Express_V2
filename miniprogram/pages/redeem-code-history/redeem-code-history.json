@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "page-model":"../../components/page-model/page-model",
+    "redeem-code-unit":"../../components/redeem-code-unit/redeem-code-unit",
+    "redeem-code-null":"../../components/redeem-code-null/redeem-code-null"
+  },
+  "navigationBarTitleText": "核销历史",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColorTop": "#f4f4f4"
+}

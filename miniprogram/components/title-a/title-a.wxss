@@ -1,0 +1,21 @@
+@import "../../layout/flex.wxss";
+.tab{
+  height: 50rpx;
+  margin: 50rpx 0;
+}
+.title{
+  font-size: 31rpx;
+  color: rgb(49, 49, 49);
+  font-weight: bold;
+}
+.titler{
+  height: 40rpx;
+  width: 12rpx;
+  margin-right: 11rpx;
+  background-color: #E3C5A1;
+}
+.desc{
+  color: #8d8d8d;
+  font-size: 23rpx;
+  margin-left: 30rpx;
+}

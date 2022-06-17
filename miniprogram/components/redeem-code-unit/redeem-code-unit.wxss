@@ -1,0 +1,41 @@
+@import "../../layout/flex.wxss";
+.tab{
+  height: 150rpx;
+  background-color: white;
+  border-radius: 15rpx;
+  margin-top: 29rpx;
+  margin-bottom: 29rpx;
+}
+.left{
+  margin-left: 40rpx;
+  width: 160rpx;
+}
+.right{
+  margin-right: 40rpx;
+  position: relative;
+}
+.left-1{
+  font-size: 40rpx;
+
+}
+.left-2{
+  font-size: 50rpx;
+  font-weight: bold;
+}
+.right-2{
+  width: 30rpx;
+  height: 30rpx;
+}
+.right-1{
+  margin-right: 30rpx;
+  width: 60rpx;
+  height:60rpx
+}
+
+.cancellation{
+  position:absolute;
+  width: 97rpx;
+  height: 75rpx;
+top: -50rpx;
+right: -50rpx;
+}

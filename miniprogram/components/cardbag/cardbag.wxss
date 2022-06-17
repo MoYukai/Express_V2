@@ -1,0 +1,17 @@
+@import "../../layout/flex.wxss";
+.tab{
+  background-color:#1B1B1B;
+  height: 120rpx;
+  width: 650rpx;
+  border-radius: 15rpx;
+  margin: 30rpx 0;
+  color: #F3D7B2;
+}
+.left{
+  margin-left: 30rpx;
+}
+.right{
+  margin-right: 30rpx;
+  width: 40rpx;
+  height: 40rpx;
+}

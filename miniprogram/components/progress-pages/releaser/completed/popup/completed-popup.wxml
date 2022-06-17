@@ -1,0 +1,29 @@
+
+<van-popup  show="{{show}}" round position="bottom" bind:close="hidePop">
+  
+  <popup-title title="订单已送达"></popup-title>
+  <popup-item title="取件码:">
+    <code-show code="{{pop.code}}" name="{{pop.poster}}"></code-show>
+  </popup-item>
+  <popup-item title="配送至:">
+    <address-tab arrow="{{false}}" name="{{pop.userAddress.name}}" phone="{{pop.userAddress.phone}}"
+      address="{{pop.userAddress.college_name}} {{pop.userAddress.dorm_name}} {{pop.userAddress.dorm_number}}栋 {{pop.userAddress.room}} ">
+    </address-tab>
+  </popup-item>
+  <popup-item title="送达图片:" height="260">
+    <image wx:if="{{pop.processData.deliveryImg}}" src="{{pop.processData.deliveryImg}}" 
+    class="image"
+    mode="aspectFill"
+    bindtap="showPic"
+    data-img="{{pop.processData.deliveryImg}}"
+    ></image>
+
+    <view class="image flex align-center justify-center" wx:if="{{!pop.processData.deliveryImg}}">
+      <van-loading size="24px" vertical>加载中...</van-loading>
+    </view>
+  </popup-item>
+  <popup-button bind:cancel="call" bind:back="back" cancel="联系对方" back="返回" data-ids="{{pop._id}}"
+  bottom="120"
+  >
+  </popup-button>
+</van-popup> 

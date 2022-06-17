@@ -1,0 +1,11 @@
+@import "../../layout/flex.wxss";
+.trial{
+  color:rgb(122, 122, 122);
+  border: #DBDBDB 3rpx dotted;
+  width: max-content;
+  padding: 20rpx 40rpx;
+  border-radius: 10rpx;
+  font-size: 25rpx;
+  height: max-content;
+  margin-top: 10rpx;
+}

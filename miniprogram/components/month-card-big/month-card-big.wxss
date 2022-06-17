@@ -1,0 +1,99 @@
+@import "../../layout/flex.wxss";
+
+.card{
+  height: 220rpx;
+  width: 100%;
+  background-color: white;
+  margin: 25rpx 0;
+  border-radius: 15rpx;
+  overflow: hidden;
+  box-shadow: 6rpx 16rpx 36rpx #00000012;
+  margin-top: 40rpx;
+}
+.title-card-o{
+  width: 400rpx;
+  height: 100%;
+  background-color: #CDA174;
+  transform: skew(-15deg);
+  position: relative;
+  left: -20rpx;
+  z-index: 2;
+}
+.title-card{
+  width: 390rpx;
+  height: 100%;
+  background-color: #3B3128;
+  left: -25rpx;
+  z-index: 3;
+  position: relative;
+}
+.title-card-left,.title-card-right{
+  transform: skew(15deg);
+  position: relative;
+  left: 50rpx;
+  color: #CDA174;
+  font-size: 35rpx;
+}
+.title-card-left{
+  margin-left: 33rpx;
+}
+.title-card-left-title{
+  margin-top: 40rpx;
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.title-card-left-text{
+  font-size: 20rpx;
+  margin: 15rpx 0;
+}
+.title-card-left-text-big{
+  font-size: 40rpx;
+  margin: 0 10rpx;
+}
+.title-card-right-icon{
+  width: 100rpx;
+  height: 100rpx;
+}
+.title-card-right{
+  margin-left:10rpx;
+}
+
+
+
+
+.text-card{
+  width: 100%;
+  margin-right: 30rpx;
+  height: 170rpx;
+}
+.text-card-row-a{
+  font-size: 28rpx;
+}
+.text-card-row-a-big{
+  font-weight: bold;
+  font-size: 40rpx;
+  margin: 0 10rpx;
+}
+.text-card-row-b{
+  font-size: 25rpx;
+  color: #747474;
+  text-decoration: line-through;
+}
+.text-card-row-b-bought{
+  font-size: 25rpx;
+  color: #747474;
+}
+
+.text-card-row-c{
+  margin-top: 20rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  height: 60rpx;
+  width: 150rpx;
+  background-color: #CDA174;
+  border-radius: 10rpx;
+}
+.btn-hover{
+  background-color: #e6b585;
+
+}

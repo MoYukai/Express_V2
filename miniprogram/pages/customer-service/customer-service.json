@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "page-model":"../../components/page-model/page-model"
+  },
+  "navigationBarTitleText": "联系客服",
+  "backgroundColorTop": "#ffffff",
+  "navigationBarBackgroundColor": "#ffffff"
+}

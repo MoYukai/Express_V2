@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "page-model":"../../../../../components/page-model/page-model",
+    "row":"../../../../../components/progress-pages/admin/module/row/row",
+    "progress-none":"../../../../../components/progress-none/progress-none"
+  }
+}

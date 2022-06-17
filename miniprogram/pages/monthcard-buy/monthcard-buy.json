@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "month-card-big":"../../components/month-card-big/month-card-big",
+    "page-model":"../../components/page-model/page-model",
+    "title-a":"../../components/title-a/title-a",
+    "month-card-item":"../../components/month-card-item/month-card-item",
+    "van-dialog": "@vant/weapp/dialog/index"
+  },
+  "navigationBarTitleText": "月卡购买",
+  "backgroundColorTop": "#F4F4F4",
+  "navigationBarBackgroundColor": "#F4F4F4"
+
+  
+}

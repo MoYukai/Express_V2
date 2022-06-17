@@ -1,0 +1,22 @@
+<wxs module="filters" src='../../Filter/index.wxs' />
+
+
+<page-model>
+  <view wx:if="{{redeemCodeList.length != 0}}"> 
+    <redeem-code-unit wx:for="{{redeemCodeList}}" wx:key="index" price="{{item.price/100}}" data-item="{{item}}"
+      available="{{true}}" bindtap="showPopup"></redeem-code-unit>
+    <van-divider contentPosition="center" custom-style="divider">
+      查看使用过的<text class="blue" bindtap="redeemHistory">核销码
+      </text>
+    </van-divider>
+  </view><redeem-code-null wx:if="{{redeemCodeList.length == 0}}" bind:button="gotoWidthdraw"></redeem-code-null>
+  
+</page-model>
+
+<popup-show-code show="{{show}}" bind:onClose="onClose" bind:service="service" item="{{item}}"
+  qrpath="{{imgUrl}}"></popup-show-code>
+
+
+<painter customStyle='position: absolute; left: -9999rpx;' customActionStyle="{{customActionStyle}}"
+  dancePalette="{{template}}" palette="{{paintPallette}}" bind:imgOK="onImgOK" bind:touchEnd="touchEnd"
+  action="{{action}}" use2D="{{true}}" widthPixels="250" />

@@ -1,0 +1,82 @@
+/* miniprogram/pages/index/index.wxss */
+@keyframes heartbeat {
+	0% {
+    transform: scale(1)  
+	  }
+	10% {
+    transform: scale(1.15);
+    background-color: #ffd849;
+	  }
+  100% {
+      transform: scale(1)         
+  }
+}
+
+@keyframes pulsecolor {
+  10% {
+  background-color: #EF395E;
+  }
+}
+.index-tab-ad{
+  width: 100%;
+  margin-top: 30rpx;
+  overflow: hidden;
+  border-radius: 20rpx;
+}
+
+.new-pop{
+  width: 500rpx;
+  height: max-content;
+  text-align: center;
+  padding:  60rpx 0;
+}
+.new-pop-btn{
+  background-color: #ffd231;
+  font-size: 25rpx;
+  width: 260rpx;
+  padding: 20rpx 40rpx;
+  border-radius: 8rpx;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  animation: heartbeat 1.25s infinite;
+}
+.btn-hover{
+  opacity: 0.8;
+}
+.text-1,.text-2{
+  font-size: 35rpx;
+}
+.text-1 red{
+  color: red;
+  font-weight: bold;
+}
+.text-2{
+  font-weight: bold;
+}
+.text-3{
+  margin-top: 20rpx;
+  font-size: 25rpx;
+}
+.text-4{
+  font-size: 20rpx;
+}
+.item {
+  display: inline-block;
+  width: 66rpx;
+  height: 66rpx;
+  line-height: 66rpx;
+  margin-right: 5px;
+  color: #f50000;
+  font-weight: bold;
+  font-size: 50rpx;
+  text-align: center;
+}
+.new-pop-cd{
+  margin-top: 10rpx;
+}
+.baoxiang{
+  margin-top: 30rpx;
+  height: auto;
+  width: 150rpx;
+}
+

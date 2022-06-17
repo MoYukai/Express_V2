@@ -1,0 +1,14 @@
+<page-model>
+
+<row-single wx:key="index" wx:for="{{waitingList}}" orderData="{{item}}" data-orderdata="{{item}}" bindtap="clickRow" bind:click="click">
+</row-single>
+
+
+<progress-none 
+  wx:if="{{waitingList == ''}}" none="{{false}}">
+  </progress-none>
+</page-model>
+
+<pop-up popupShow="{{popupShow}}" pop="{{popupOrderData}}" bind:close="popUpClose"></pop-up>
+
+<van-toast id="van-toast" />

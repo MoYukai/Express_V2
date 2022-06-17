@@ -1,0 +1,20 @@
+<view wx:if="{{codeAvailable == 0}}" class="flex tips align-center justify-between">
+  <view class="text flex align-center">请上传您的身份码，快递员正在取件中</view>
+  <view class="button flex align-center justify-center" hover-class="btn-hover" bindtap="button">
+  <view class="button-dot"></view>
+  立即上传
+  </view>
+</view>
+
+<view wx:if="{{codeAvailable == -1}}" class="flex tips align-center justify-between">
+  <view class="text flex align-center">您的身份码已过期，请立即更新</view>
+  <view class="button flex align-center justify-center" hover-class="btn-hover" bindtap="button">
+    <view class="button-dot"></view>
+  立即更新
+  </view>
+</view>
+
+<view wx:if="{{codeAvailable == 1}}" class="flex tips align-center justify-between">
+  <view class="text flex align-center">您的身份码已经上传完成</view>
+  <view class="button flex align-center justify-center" hover-class="btn-hover" bindtap="button">重新上传</view>
+</view>

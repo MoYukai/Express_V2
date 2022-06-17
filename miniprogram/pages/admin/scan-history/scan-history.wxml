@@ -1,0 +1,31 @@
+<view class="scan flex-jc-ac" bindtap="openScanTap">
+  <image src="../../../static/image/scan2.png" mode="widthFix"></image>
+</view>
+<view class="scan-tit">扫一扫</view>
+
+<view class="oqp"></view>
+<view class="content flex-jb-ac">
+  <left></left>
+  <middle>核销历史</middle>
+  <right></right>
+</view>
+<view class="oqp"></view>
+
+<scroll-view class="scroll-class-list" scroll-y="true">
+  
+  <block class="content" wx:for="{{historyArr}}" wx:key="index">
+    <view class="content-item flex-jb-ac">
+      <one class="flex-jc-ac">
+        <image src="{{headerArr[index]}}" mode="widthFix" style="border-radius:100%"></image>
+      </one>
+      <two>{{NickArr[index]}}</two>
+      <three>
+        <co>￥</co>{{item.ticketData.ticket_money}}
+      </three>
+      <four>{{userTimeArr[index]}}</four>
+    </view>
+  </block>
+
+  <view class="zhanwei-class"></view>
+
+</scroll-view>

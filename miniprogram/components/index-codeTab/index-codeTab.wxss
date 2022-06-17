@@ -1,0 +1,44 @@
+@import "../../layout/flex.wxss";
+
+.btn-hover{
+  opacity: 0.8;
+}
+.tab{
+  height: max-content;
+  background-color: #fff;
+  margin-top: 20rpx;
+  border-radius: 15rpx;
+  padding-top: 25rpx;
+  padding-bottom: 30rpx;
+}
+.title{
+  font-size: 29rpx;
+  font-weight: bold;
+  color: #292929;
+}
+
+.button-box{
+  height: 80rpx;
+  width: 600rpx;
+  border-radius: 10rpx;
+  margin-top: 20rpx;
+}
+.button-a,.button-b{
+  border-radius: 8rpx;
+  height: 70rpx;
+  padding: 0 40rpx;
+  margin: 0 10rpx;
+}
+.button-a{
+  background-color: rgb(255, 255, 255);
+  border: #E2E2E2 2rpx solid;
+  font-size: 23rpx;
+  color: #646464;
+}
+.button-b{
+  font-size: 23rpx;
+  font-weight: bold;
+  border:#FFD027 2rpx solid;
+  background-color: #FFD027;
+  color: #3C3C3C;
+}

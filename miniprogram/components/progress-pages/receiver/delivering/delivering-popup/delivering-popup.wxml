@@ -1,0 +1,18 @@
+
+<van-popup  show="{{show}}" round position="bottom" bind:close="hidePop">
+  
+  <popup-title title="订单详情"></popup-title>
+  <popup-item title="取件码:">
+    <code-show code="{{pop.code}}" name="{{pop.poster}}"></code-show>
+  </popup-item>
+  <popup-item title="配送至:">
+    <address-tab arrow="{{false}}" name="{{pop.userAddress.name}}" phone="{{pop.userAddress.phone}}"
+      address="{{pop.userAddress.college_name}} {{pop.userAddress.dorm_name}} {{pop.userAddress.dorm_number}}栋 {{pop.userAddress.room}} ">
+    </address-tab>
+  </popup-item>
+  <popup-button bind:cancel="back" bind:back="orderComplete" cancel="联系对方" back="拍照送达" data-pop="{{pop}}"
+  bottom="120"
+  >
+  </popup-button>
+</van-popup> 
+

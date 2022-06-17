@@ -1,0 +1,10 @@
+<view class="flex align-center">
+<view class="header" bindtap="header">
+<!-- <open-data type="userAvatarUrl"></open-data> -->
+<image wx:if="{{avatarUrl}}" src="{{avatarUrl}}" mode="widthFix"></image>
+<image wx:if="{{!avatarUrl}}" src="../../static/icon/daiyou.jpeg" mode="widthFix"></image>
+</view>
+<view class="college" wx:if="{{in_neu}}">广东东软学院</view>
+<view class="college-out" wx:if="{{!in_neu}}">您当前在校区之外</view>
+<!-- <image class="arrow" src="../../static/icon/arrow-right-b.svg" bindtap="arrow"></image> -->
+</view>

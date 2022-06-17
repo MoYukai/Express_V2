@@ -1,0 +1,44 @@
+@import "../../layout/flex.wxss";
+.tab{
+    border-radius:20rpx;
+}
+.tab-1{
+    background-color: #fff;
+    width: 100%;
+    height: 688rpx;
+    margin-top: 30rpx;
+}
+.tab-2{
+    background-color: #fff;
+    width: 100%;
+    height: 260rpx;
+    margin-top: 30rpx;
+}
+.tab-3{
+    background-color: #fff;
+    width: 100%;
+    height: 260rpx;
+    margin-top: 30rpx;
+}
+.code{
+    background-color: rgb(206, 206, 206);
+    width: 390rpx;
+    height: 390rpx;
+    border-radius: 20rpx;
+    margin-top: 60rpx;
+}
+.text{
+    font-size: 35rpx;
+    color: rgb(83, 83, 83);
+    margin-top: 30rpx;
+}
+.text-2{
+    font-size: 35rpx;
+    color: rgb(83, 83, 83);
+    margin-top: 20rpx;
+}
+.tab-title{
+    width: 80%;
+    margin-top: 20rpx;
+    font-weight: bold;
+}

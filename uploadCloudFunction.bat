@@ -1,0 +1,1 @@
+"C:\Program Files (x86)\Tencent\微信web开发者工具\cli.bat" cloud functions deploy --e quantabeat-express-7dixy75b5786f --n functions --r  --project E:\MiniPrg\Express_V2 && "C:\Program Files (x86)\Tencent\微信web开发者工具\cli.bat" cloud functions deploy --e second-env-0gm0mwun7feb1243 --n functions --r  --project E:\MiniPrg\Express_V2

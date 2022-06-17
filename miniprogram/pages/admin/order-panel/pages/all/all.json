@@ -1,0 +1,10 @@
+{
+  "component": true,
+  "usingComponents": {
+    "van-toast": "@vant/weapp/toast/index",
+    "row-single":"../../../../../components/progress-pages/admin/module/row-single/row-single",
+    "pop-up":"./popup/popup",
+    "progress-none":"../../../../../components/progress-none/progress-none",
+    "page-model":"../../../../../components/page-model/page-model"
+  }
+}

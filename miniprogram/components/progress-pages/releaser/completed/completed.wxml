@@ -1,0 +1,19 @@
+<page-model bottom="10">
+
+
+<progress-none wx:if="{{completedList == ''}}">
+</progress-none>
+
+<progress-card 
+wx:if="{{completedList  != ''}}" 
+wx:for="{{completedList}}" 
+bind:detail="detail" 
+code="{{item.code}}"
+name="{{item.poster}}" 
+data-popidx="{{index}}" 
+wx:key="index">
+
+</progress-card>
+
+
+</page-model>

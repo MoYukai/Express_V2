@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "page-model":"../../components/page-model/page-model",
+    "wallet-card":"../../components/wallet-card/wallet-card"
+  },
+  "navigationBarTitleText": "钱包",
+  "backgroundColorTop": "#F4F4F4",
+  "navigationBarBackgroundColor": "#ffffff"
+}

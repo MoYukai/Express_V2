@@ -1,0 +1,14 @@
+{
+  "component": true,
+  "usingComponents": {
+    "page-model":"../../../page-model/page-model",
+    "progress-none":"../../../progress-none/progress-none",
+    "progress-card":"../../../progress-card/progress-card",
+    "van-popup": "@vant/weapp/popup/index",
+    "popup-title":"../../../popup-title/popup-title",
+    "popup-item":"../../../popup-item/popup-item",
+    "code-show":"../../../code-show/code-show",
+    "address-tab":"../../../address-tab/address-tab",
+    "popup-button":"../../../popup-button/popup-button"
+  }
+}

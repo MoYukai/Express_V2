@@ -1,0 +1,19 @@
+<view class="box flex flex-direction align-center justify-between">
+<image src="../../../static/icon/header-null.svg" class="header"></image>
+<view class="price">¥{{redeem_code_detail.price / 100}}</view>
+</view>
+<view class="button-box flex justify-center">
+<view class="button" hover-class="button-hover" wx:if="{{redeem_code_detail.available}}" bindtap="use_redeem">点击核销</view>
+<view class="button-na" wx:if="{{!redeem_code_detail.available}}">已核销</view>
+</view>
+
+
+
+
+
+
+
+
+
+
+<van-toast id="van-toast" />

@@ -1,0 +1,10 @@
+@import "../../layout/flex.wxss";
+.code{
+  font-size: 40rpx;
+}
+.name{
+  font-size: 20rpx;
+}
+.box{
+  height: max-content;
+}

@@ -1,0 +1,3 @@
+<view class="page" style="padding-bottom:{{bottom}}rpx">
+<slot></slot>
+</view>

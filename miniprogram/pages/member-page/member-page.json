@@ -1,0 +1,30 @@
+{
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "page-model":"../../components/page-model/page-model",
+    "progress-card":"../../components/progress-card/progress-card",
+    "van-popup": "@vant/weapp/popup/index",
+    "popup-title":"../../components/popup-title/popup-title",
+    "popup-item":"../../components/popup-item/popup-item",
+    "code-show":"../../components/code-show/code-show",
+    "address-tab":"../../components/address-tab/address-tab",
+    "popup-button":"../../components/popup-button/popup-button",
+    "progress-none":"../../components/progress-none/progress-none",
+    "pool":"../../components/progress-pages/receiver/pool/pool",
+    "pool-popup":"../../components/progress-pages/receiver/pool/pool-popup/pool-popup",
+    "picking-up":"../../components/progress-pages/receiver/picking-up/picking-up",
+    "pickingup-popup":"../../components/progress-pages/receiver/picking-up/pickingup-popup/pickingup-popup",
+    "delivering":"../../components/progress-pages/receiver/delivering/delivering",
+    "delivering-popup":"../../components/progress-pages/receiver/delivering/delivering-popup/delivering-popup",
+    "completed":"../../components/progress-pages/receiver/completed/completed",
+    "completed-popup":"../../components/progress-pages/receiver/completed/completed-popup/completed-popup",
+    "van-dialog": "@vant/weapp/dialog/index"
+  },
+  "navigationBarTitleText": "接单页面",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f4f4f4",
+  "backgroundColorBottom": "#f4f4f4",
+  "backgroundColorTop": "#ffffff",
+  "backgroundTextStyle": "dark"
+}

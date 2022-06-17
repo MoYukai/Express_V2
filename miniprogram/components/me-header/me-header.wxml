@@ -1,0 +1,11 @@
+<view class="tab flex align-center">
+  <view class="header">
+  <!-- <open-data type="userAvatarUrl"></open-data> -->
+  <image wx:if="{{avatarUrl}}" src="{{avatarUrl}}" mode="widthFix"></image>
+<image wx:if="{{!avatarUrl}}" src="../../static/icon/daiyou.jpeg" mode="widthFix"></image>
+  </view>
+  <view class="right flex flex-direction justify-between">
+    <view class="right-nick"><open-data type="userNickName"></open-data></view>
+    <view class="right-desc">在袋友速递待了{{day}}天</view>
+  </view>
+</view>

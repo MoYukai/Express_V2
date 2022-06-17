@@ -1,0 +1,7 @@
+<page-model>
+<row wx:key="index" wx:for="{{processingList}}" orderData="{{item}}">
+</row>
+<progress-none 
+  wx:if="{{processingList == ''}}" none="{{false}}">
+  </progress-none>
+</page-model>

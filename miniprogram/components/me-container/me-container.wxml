@@ -1,0 +1,10 @@
+<view class="tab flex flex-direction align-center">
+<view class="title-box flex align-center justify-between">
+  <view class="title-box-left">{{title}}</view>
+  <view class="title-box-right" bindtap="detail">{{showDetail ? '全部' : ''}}</view>
+</view>
+<view class="container-box">
+  <slot></slot>
+</view>
+
+</view>

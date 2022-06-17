@@ -1,0 +1,12 @@
+<wxs module="dateUtil" src="../../../../../../Filter/timer.wxs"></wxs>
+<wxs module="filter" src="../../../../../../Filter/index.wxs"></wxs>
+<view class="outside-box">
+<view class="box flex align-center" wx:for="{{progress}}" wx:key="index">
+<view class="a">
+<view class="a-dot"></view>
+</view>
+<view class="b">{{item.description}}</view>
+<view class="c">{{dateUtil.dateFormat(filter.cdbDate(item.timestamp),'MM/dd hh:mm')}}</view>
+</view>
+
+</view>

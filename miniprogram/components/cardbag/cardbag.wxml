@@ -1,0 +1,4 @@
+<view class="tab flex align-center justify-between">
+<view class="left">剩余代金券 {{remain}}张</view>
+<image class="right" mode="widthFix" src="../../static/icon/arrow-right.png">右边</image>
+</view>

@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "background":"../../components/background/background",
+    "index-header":"../../components/index-header/index-header",
+    "page-model":"../../components/page-model/page-model",
+    "tips-button":"../../components/tips-button/tips-button",
+    "index-codeTab":"../../components/index-codeTab/index-codeTab",
+    "month-card":"../../components/month-card/month-card",
+    "cutting-line":"../../components/cutting-line/cutting-line",
+    "join-tab":"../../components/join-tab/join-tab",
+    "join-us":"../../components/popup/join-us/join-us",
+    "van-popup": "@vant/weapp/popup/index",
+    "van-count-down": "@vant/weapp/count-down/index"
+  }
+}

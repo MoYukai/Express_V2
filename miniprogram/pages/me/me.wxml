@@ -1,0 +1,18 @@
+<page-model>
+  <me-header id="header" day="{{day}}"></me-header>
+  <me-month-card monthCardType="{{monthCardType}}" bind:buy="buyCard"></me-month-card>
+  <me-account-tab cardRemain="{{cardRemain}}" bind:detail="cardBagDetail"></me-account-tab>
+  <me-container title="我的订单" bind:detail="orderDetail">
+    <me-order-tab id="me-order-tab" bind:select="orderTabSelect">
+    </me-order-tab>
+  </me-container>
+  <me-container title="我的服务" showDetail="{{false}}">
+    <me-service-tab authLev="{{authLev}}"></me-service-tab>
+  </me-container>
+  <!-- <me-container title="实验室" showDetail="{{false}}">
+    <image class="JD" src="../../static/icon/JD.png" bindtap="gotoJD">
+    </image>
+  </me-container> -->
+</page-model>
+
+<van-toast id="van-toast" />

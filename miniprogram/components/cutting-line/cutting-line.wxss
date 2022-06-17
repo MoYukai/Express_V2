@@ -1,0 +1,16 @@
+@import "../../layout/flex.wxss";
+.text{
+  width: max-content;
+  padding: 0 30rpx;
+  color: #5A5A5A;
+  font-size: 28rpx;
+}
+.box{
+  margin: 50rpx 0;
+  width: 100%;
+}
+.line{
+  height: 2rpx;
+  width:150rpx;
+  background-color: rgb(231, 231, 231);
+}

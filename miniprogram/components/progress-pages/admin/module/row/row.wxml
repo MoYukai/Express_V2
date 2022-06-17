@@ -1,0 +1,39 @@
+<wxs module="dateUtil" src="../../../../../Filter/timer.wxs"></wxs>
+<wxs module="filter" src="../../../../../Filter/index.wxs"></wxs>
+<view class="tab flex flex-direction justify-start">
+<view class="top flex align-center justify-between">
+  <view class="left flex align-center">
+<image wx:if="{{orderData.pickerDataLookUp[0].userInfo.data.avatarUrl != ''}}" class="left-a" 
+      src="{{orderData.userDataLookUp[0].userInfo.data.avatarUrl}}"
+>
+</image>
+<image wx:if="{{orderData.userDataLookUp[0].userInfo.data.avatarUrl  == ''}}" class="left-a" 
+      src="../../../../../static/icon/header-null.svg"
+>
+</image>
+<view class="left-b">
+<view class="left-b-1">{{orderData.code}}</view>
+<view class="left-b-2">{{orderData.poster}}</view>
+</view>
+</view>
+<view class="right">{{dateUtil.dateFormat(filter.cdbDate(orderData.createTimestamp),'MM/dd hh:mm')}}</view>
+</view>
+
+<view class="bottom flex flex-direction justify-start">
+  <view class="bottom-title">订单进度</view>
+  <view class="bottom-card flex align-center">
+  <image 
+  wx:if="{{orderData.userDataLookUp[0].userInfo.data.avatarUrl  != ''}}"
+   class="bottom-header" src="{{orderData.pickerDataLookUp[0].userInfo.data.avatarUrl}}"></image>
+   <image 
+  wx:if="{{orderData.userDataLookUp[0].userInfo.data.avatarUrl  == ''}}"
+   class="bottom-header" src="../../../../../static/icon/header-null.svg"></image>
+  <view class="bottom-header-nick">{{orderData.pickerDataLookUp[0].userInfo.data.nickName}}</view>
+  </view>
+  <view class="progress-box flex justify-between align-end">
+  <progress-unit progress="{{orderData.status}}"></progress-unit>
+  <view class="contact-runner" data-orderData="{{orderData}}" bindtap="contactRunner">联系接单人</view>
+  </view>
+</view>
+
+</view>

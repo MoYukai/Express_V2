@@ -1,0 +1,10 @@
+<view class="tab flex flex-direction align-center">
+<view class="title">请输入您的取件码</view>
+<view class="flex align-center">
+<code-input id="code-input" bind:input="input"></code-input>
+</view>
+<view class="button-box flex align-center justify-end">
+<view class="button-a flex align-center" hover-class="btn-hover" bindtap="free">新用户领取免费次数</view>
+<view class="button-b flex align-center" hover-class="btn-hover" bindtap="next">下一步</view>
+</view>
+</view>

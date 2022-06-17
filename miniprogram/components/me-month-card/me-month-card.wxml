@@ -1,0 +1,29 @@
+<view wx:if="{{!monthCardType}}" class="tab flex align-center justify-center" bindtap="buyMonthCard">
+  <view class="tab-inner flex justify-between align-center">
+    <view class="left flex align-center justify-between">
+
+      <image class="left-icon" src="../../static/icon/crown.png" mode="widthFix"></image>
+
+      <view class="left-desc">立即开通袋鼠月卡</view>
+    </view>
+    <view class="right flex align-center justify-between">
+      <view class="right-desc">每月节省<text class="right-desc-big">120</text>元</view>
+      <image class="right-icon" src="../../static/icon/right-golden.png"></image>
+    </view>
+  </view>
+</view>
+
+<view wx:if="{{monthCardType}}" class="tab flex align-center justify-center" bindtap="buyMonthCard">
+  <view class="tab-inner flex justify-between align-center">
+    <view class="left flex align-center justify-between">
+
+      <image class="left-icon" src="../../static/icon/crown.png" mode="widthFix"></image>
+
+      <view class="left-desc">已开通袋鼠月卡~</view>
+    </view>
+    <view class="right flex align-center justify-between">
+      <view class="right-desc">每月节省<text class="right-desc-big">120</text>元</view>
+      <image class="right-icon" src="../../static/icon/right-golden.png"></image>
+    </view>
+  </view>
+</view>

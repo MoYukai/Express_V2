@@ -1,0 +1,19 @@
+<page-model bottom="10">
+
+  <progress-none wx:if="{{cancelledList == ''}}">
+  </progress-none>
+
+  <progress-card 
+  wx:if="{{cancelledList  != ''}}" 
+  wx:for="{{cancelledList}}" 
+  wx:key="index"
+  bind:detail="detail" 
+  code="{{item.code}}"
+  name="{{item.poster}}" 
+  data-popidx="{{index}}"
+  button="{{item.status_code == -2 ? '查看详情' : '被取消'}}"
+  >
+
+  </progress-card>
+
+</page-model>

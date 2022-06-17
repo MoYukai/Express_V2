@@ -1,0 +1,3 @@
+<view class="code-box flex align-center">
+<input  placeholder="88-8-8888" maxlength="12" class="input" bindinput="input" value="{{code}}"></input>
+</view>

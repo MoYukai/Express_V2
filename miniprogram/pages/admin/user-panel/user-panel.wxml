@@ -1,0 +1,9 @@
+<van-tabs id="tabs" active="{{ active }}" color="#FFDE6A" sticky animated>
+  <van-tab title="全部" >
+  <user-all></user-all>
+  </van-tab>
+  <van-tab title="下单最多" >
+
+  </van-tab>
+
+</van-tabs>

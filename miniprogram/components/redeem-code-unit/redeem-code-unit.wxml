@@ -1,0 +1,22 @@
+<view class="tab flex align-center justify-between" wx:if="{{available}}">
+<view class="left flex align-center justify-start">
+<view class="left-1">￥</view>
+<view class="left-2">{{price}}</view>
+</view>
+<view class="right flex align-center justify-end">
+  <image class="right-1" src="../../static/icon/QRCode.svg" width="widthFix"></image>
+<image class="right-2" src="../../static/icon/arrow.svg" width="widthFix"></image>
+</view>
+</view>
+
+<view class="tab flex align-center justify-between" wx:if="{{!available}}">
+<view class="left flex align-center justify-start">
+<view class="left-1">￥</view>
+<view class="left-2">{{price}}</view>
+</view>
+<view class="right flex align-center justify-end">
+<image class="cancellation" src="../../static/icon/cancellation.png" width="widthFix"></image>
+  <image class="right-1" src="../../static/icon/QRCode.svg" width="widthFix"></image>
+<image class="right-2" src="../../static/icon/arrow.svg" width="widthFix"></image>
+</view>
+</view>

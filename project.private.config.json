@@ -1,0 +1,288 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/getOpenId/index",
+          "pathName": "pages/getOpenId/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/deployService/index",
+          "pathName": "pages/deployService/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/selectRecord/index",
+          "pathName": "pages/selectRecord/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sumRecordResult/index",
+          "pathName": "pages/sumRecordResult/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/updateRecord/index",
+          "pathName": "pages/updateRecord/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/updateRecordResult/index",
+          "pathName": "pages/updateRecordResult/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/updateRecordSuccess/index",
+          "pathName": "pages/updateRecordSuccess/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "发布订单页面",
+          "pathName": "pages/orderRelease/orderRelease",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "首页",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": 1011
+        },
+        {
+          "name": "更改地址",
+          "pathName": "pages/address/address",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "进度",
+          "pathName": "pages/progress/progress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "修改地址",
+          "pathName": "pages/address/address",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "接单页面",
+          "pathName": "pages/member-page/member-page",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "接单人信息",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/progress/progress",
+          "pathName": "pages/progress/progress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/me/me",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "月卡购买页面",
+          "pathName": "pages/monthcard-buy/monthcard-buy",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的卡包",
+          "pathName": "pages/my-card-bag/my-card-bag",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的钱包页面",
+          "pathName": "pages/wallet/wallet",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "提现页面",
+          "pathName": "pages/withdraw/withdraw",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "meeting page",
+          "pathName": "pages/laboratory/meeting/meeting",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "加盟入驻页面",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/user-info/user-info",
+          "pathName": "pages/user-info/user-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "核销码页面",
+          "pathName": "pages/redeem-code/redeem-code",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "核销码历史页面",
+          "pathName": "pages/redeem-code-history/redeem-code-history",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "接单页面",
+          "pathName": "pages/member-page/member-page",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "运营数据",
+          "pathName": "pages/admin/operation-index/operation-index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "用户面板",
+          "pathName": "pages/admin/user-panel/user-panel",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的账单页面",
+          "pathName": "pages/bills-record/bills-record",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "管理员落地页",
+          "pathName": "pages/guest/guest",
+          "query": "q=https%3A%2F%2Fpixcel.cn%2Fminiprg%2Fdaiyou%2Fadmin%3Fredeem_code%3D787878787&scancode_time=1632228381",
+          "scene": null
+        },
+        {
+          "name": "订单面板",
+          "pathName": "pages/admin/order-panel/order-panel",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请会员",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请会员",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请会员",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请会员",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请会员",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请会员",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请会员",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "申请会员",
+          "pathName": "pages/member-info/member-info",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "分享页面",
+          "pathName": "pages/share/share",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "优惠兑换",
+          "pathName": "pages/coupon-changers/coupon-changers",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "联系客服",
+          "pathName": "pages/customer-service/customer-service",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/customer-service/customer-service",
+          "pathName": "pages/customer-service/customer-service",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/progress/progress",
+          "pathName": "pages/progress/progress",
+          "query": "index=0",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

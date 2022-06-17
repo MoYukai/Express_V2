@@ -1,0 +1,79 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/orderRelease/orderRelease",
+    "pages/progress/progress",
+    "pages/address/address",
+    "pages/me/me",
+    "pages/customer-service/customer-service",
+    "pages/member-page/member-page",
+    "pages/member-info/member-info",
+    "pages/monthcard-buy/monthcard-buy",
+    "pages/my-card-bag/my-card-bag",
+    "pages/wallet/wallet",
+    "pages/withdraw/withdraw",
+    "pages/laboratory/meeting/meeting",
+    "pages/laboratory/login/login",
+    "pages/user-info/user-info",
+    "pages/redeem-code/redeem-code",
+    "pages/redeem-code-history/redeem-code-history",
+    "pages/admin/operation-index/operation-index",
+    "pages/admin/scan-history/scan-history",
+    "pages/admin/user-panel/user-panel",
+    "pages/bills-record/bills-record",
+    "pages/admin/redeem-code/redeem-code",
+    "pages/guest/guest",
+    "pages/admin/user-panel/tab-page/user-all/user-all",
+    "pages/admin/order-panel/order-panel",
+    "pages/coupon-changers/coupon-changers"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFDE6A",
+    "navigationBarTitleText": "袋友速递",
+    "navigationBarTextStyle": "black",
+    "backgroundColorBottom": "#f4f4f4",
+    "backgroundColorTop": "#FFDE6A",
+    "backgroundColor": "#ffffff"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#000000",
+    "color": "#8d8d8d",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/home.png",
+        "selectedIconPath": "static/tabBar/home@selected.png",
+        "text": "主页"
+      },
+      {
+        "pagePath": "pages/orderRelease/orderRelease",
+        "iconPath": "static/tabBar/release.png",
+        "selectedIconPath": "static/tabBar/release@selected.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/tabBar/me.png",
+        "selectedIconPath": "static/tabBar/me@selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "darkmode": false,
+  "plugins": {
+
+  },
+  "usingComponents": {
+    "van-toast": "@vant/weapp/toast/index",
+    "van-dialog": "@vant/weapp/dialog/index"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置获取"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.timer{
+  font-size: 60rpx;
+  text-align: center;
+  margin-top: 60rpx;
+  margin-bottom: 60rpx;
+}
+.title{
+  font-size: 30rpx;
+  margin-left: 20rpx;
+}

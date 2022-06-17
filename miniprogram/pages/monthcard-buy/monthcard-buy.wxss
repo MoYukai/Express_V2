@@ -1,0 +1,19 @@
+page{
+  --background-color: #fff;
+} 
+.tab{
+  background-color: #fff;
+  border-radius: 18rpx;
+  width: 100%;
+  font-size: 22rpx;
+  color: rgb(165, 165, 165);
+  padding: 30rpx 0;
+  box-shadow: 6rpx 16rpx 36rpx #00000012;
+}
+.tab-in{
+  width: 90%;
+  margin: 0 auto;
+}
+.tab-line{
+  margin: 18rpx 0;
+}

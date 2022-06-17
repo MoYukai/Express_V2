@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "background":"../../components/background/background",
+    "page-model":"../../components/page-model/page-model",
+    "release-tab":"../../components/release-tab/release-tab",
+    "code-input":"../../components/code-input/code-input",
+    "post-select":"../../components/post-select/post-select",
+    "address-tab":"../../components/address-tab/address-tab",
+    "month-card-release":"../../components/month-card-release/month-card-release",
+    "van-submit-bar": "@vant/weapp/submit-bar/index",
+    "van-radio": "@vant/weapp/radio/index",
+  "van-radio-group": "@vant/weapp/radio-group/index"
+  },
+  "navigationBarTitleText": "发布订单"
+}

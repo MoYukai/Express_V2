@@ -1,0 +1,7 @@
+<page-model bottom="10">
+  <progress-none bind:noneBtn="noneBtn" wx:if="{{completedList == ''}}" none="{{false}}"></progress-none>
+  <progress-card wx:if="{{completedList  != ''}}" wx:for="{{completedList}}" bind:detail="detail" code="{{item.code}}"
+    name="{{item.poster}}" data-popidx="{{index}}" data-orderidx="{{item._id}}" wx:key="index">
+  </progress-card>
+
+</page-model>

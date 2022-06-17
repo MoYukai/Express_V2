@@ -1,0 +1,43 @@
+@import "../../layout/flex.wxss";
+.tab{
+  width: 100%;
+  height: 150rpx;
+  background-color: #fff;
+  border-radius: 15rpx;
+  box-shadow: 6rpx 16rpx 36rpx #00000012;
+  margin: 25rpx 0;
+}
+.left-icon{
+  width: 75rpx;
+  height: 75rpx;
+}
+.right{
+  color: #3B3128;
+  background-color: #CDA174;
+  height: 60rpx;
+  border-radius: 50rpx;
+  padding: 0 30rpx;
+  font-size: 22rpx;
+  font-weight: bold;
+  margin-right: 40rpx;
+}
+.left{
+  margin-left: 40rpx;
+  width: max-content;
+}
+.left-title{
+  height: 76rpx;
+  margin-left: 35rpx;
+}
+.left-title-a{
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #424242;
+}
+.left-title-b{
+  font-size: 22rpx;
+  color: #424242;
+}
+.btn-hover{
+  background-color: #e6b585;
+}

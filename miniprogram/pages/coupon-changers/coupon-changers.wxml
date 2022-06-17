@@ -1,0 +1,11 @@
+<view class="page">
+<page-model>
+  <release-tab title="输入兑换码">
+  <view class="flex flex-direction align-end">
+    <input  placeholder="请输入获取到的兑换码" maxlength="12" class="input" bindinput="input" value="{{code}}"></input>
+    <view class="submit" hover-class="hover" bindtap="submit">提交</view>
+  </view>
+    </release-tab>
+</page-model>
+</view>
+<van-toast id="van-toast" />

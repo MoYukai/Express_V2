@@ -1,0 +1,23 @@
+<wxs module="dateUtil" src="../../../../utils/timeFilter.wxs"></wxs>
+<wxs module="filter" src="../../../../Filter/index.wxs"></wxs>
+<page-model  bottom="10">
+
+
+  <progress-none 
+  wx:if="{{poolList == ''}}" none="{{false}}">
+  </progress-none>
+
+  <progress-card-2 
+  wx:if="{{poolList  != ''}}" wx:for="{{poolList}}" 
+  wx:key="index"
+  bind:detail="detail" 
+ 
+  code="{{item.code}}"
+  name="{{item.poster}}"
+  time="{{dateUtil.dateFormat(filter.cdbDate(item.createTimestamp),'MM/dd hh:mm')}}"
+
+  data-popidx="{{index}}"
+  >
+  </progress-card-2>
+
+</page-model>

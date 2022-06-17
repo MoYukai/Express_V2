@@ -1,0 +1,10 @@
+<view class="box flex justify-between align-center">
+<view class="code-box flex flex-direction justify-start">
+<view class="code">{{code}}</view>
+<view class="name">{{name}}</view>
+</view>
+<view class="call-box flex flex-direction align-center justify-between" bindtap="makeCall" hover-class="call-box-hover">
+<image class="call-box-icon" src="../../static/icon/make-call.svg"></image>
+<view class="call-box-desc">联系对方</view>
+</view>
+</view>

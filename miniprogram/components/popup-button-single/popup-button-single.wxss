@@ -1,0 +1,21 @@
+@import "../../layout/flex.wxss";
+.line{
+  width: 400rpx;
+  height: 80rpx;
+  margin: 0 auto;
+  margin-bottom: 55rpx;
+}
+.button{
+  border: rgb(228, 228, 228) 2rpx solid;
+  padding: 15rpx 40rpx;
+  border-radius: 15rpx;
+  font-size: 25rpx;
+  min-width: 90rpx;
+}
+.button-yellow{
+  background-color: #FFC301;
+  border: #FFC301;
+}
+.button-hover{
+  opacity: 0.8;
+}

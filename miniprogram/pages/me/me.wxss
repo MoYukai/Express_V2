@@ -1,0 +1,9 @@
+/* miniprogram/pages/me/me.wxss */
+.JD{
+  background-color: #fff;
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 30rpx;
+  border-radius: 10rpx;
+  margin-left: 30rpx;
+}

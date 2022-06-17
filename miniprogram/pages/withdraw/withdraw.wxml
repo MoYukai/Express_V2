@@ -1,0 +1,39 @@
+<page-model>
+<withdraw-tab title="当前余额（元）">
+{{balance}}
+</withdraw-tab>
+<withdraw-tab title="提现金额（元）">
+<view class="withdraw">
+<input type="text" placeholder="0.00" class="input" model:value="{{withdrawInput}}"></input>
+<view class="withdraw-tip">
+<view class="withdraw-tip-title">每日提现说明：</view>
+<view class="withdraw-tip-text">账户余额每天可至多提现1次，袋鼠月卡用户可提现3次。单笔提现金额需大于0.5元，小于1000元</view>
+</view>
+</view>
+</withdraw-tab>
+<withdraw-tab title="提现方式">
+<view class="withdraw-way">
+  <van-radio-group value="{{ radio }}" bind:change="onChange">
+  <van-cell-group border="{{false}}">
+    <!-- <van-cell  icon="/static/icon/wechat.png" title="微信支付"  data-name="1" bind:click="onClick" border="{{false}}" title-class="title-class" clickable="{{false}}" >
+      <van-radio slot="right-icon" name="1" checked-color="#ED7043" disabled="{{true}}"></van-radio>
+    </van-cell> -->
+    <van-cell icon="qr" title="核销码" data-name="2" bind:click="onClick" border="{{false}}" title-class="title-class">
+      <van-radio slot="right-icon" name="2" 
+      checked-color="#ED7043"> </van-radio>
+    </van-cell>
+  </van-cell-group>
+</van-radio-group>
+</view>
+</withdraw-tab>
+
+<view class="history" bindtap="billhistory">查看账单流水</view>
+
+<view class="bottom-btn" hover-class="btn-hover" bindtap="withdraw">
+立即提现
+</view>
+
+</page-model>
+
+<van-toast id="van-toast" />
+<van-dialog id="van-dialog" />

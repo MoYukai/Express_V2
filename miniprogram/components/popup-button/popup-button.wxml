@@ -1,0 +1,9 @@
+<view class="line flex align-center justify-between" style="margin-bottom:{{bottom}}rpx" wx:if="{{single == false}}">
+<view class="button flex justify-center" hover-class="button-hover" bindtap="cancel">{{cancel}}</view>
+<view class="button button-yellow flex justify-center" hover-class="button-hover" bindtap="back">{{back}}</view>
+</view>
+
+<!-- 单按钮弹窗 -->
+<view class="line flex align-center justify-center" style="margin-bottom:{{bottom}}rpx" wx:if="{{single == true}}">
+<view class="button button-yellow flex justify-center" hover-class="button-hover" bindtap="back">{{back}}</view>
+</view>

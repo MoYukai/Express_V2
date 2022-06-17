@@ -1,0 +1,7 @@
+@import "../../../../../layout/flex.wxss";
+.image{
+  width: 200rpx;
+  height: 200rpx;
+  overflow: hidden;
+  border-radius: 20rpx;
+}

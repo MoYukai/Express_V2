@@ -1,0 +1,43 @@
+/* @font-face {
+  font-family: 'yahei2';
+  src: url('http://www.pixcel.cn//fonts/AlibabaSans-Regular.otf');
+} */
+
+
+page {
+  color: rgb(27, 27, 27);
+  background-color: #f4f4f4;
+}
+
+/* image{
+  height: auto;
+  width: auto;
+}
+
+button{
+  color: #3E3E3E;
+  font-weight: bold;
+  font-size: 27rpx;
+  margin:0 !important;
+  padding:20rpx 35rpx!important;
+  background-color:#FFC301 !important;
+  line-height:inherit;
+  border-radius:10rpx !important;
+  border:none !important;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  width: max-content !important;
+}
+button::after{
+  border: none !important;
+}
+.button-hover {
+background-color:#ffdd6e !important;
+color: #3E3E3E;
+}
+
+  button[disabled] {
+    background-color: #fff;
+    color: #666;
+  }  */

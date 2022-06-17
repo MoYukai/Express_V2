@@ -1,0 +1,7 @@
+<view class="tab flex align-center justify-between">
+<view class="left">
+<view class="desc">{{desc}}</view>
+<view class="time">{{time}}</view>
+</view>
+<view class="right">{{price}}</view>
+</view>

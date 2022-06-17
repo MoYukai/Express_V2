@@ -1,0 +1,37 @@
+@import "../../layout/flex.wxss";
+
+.box{
+  width: 510rpx;
+  border-radius: 12rpx;
+  padding: 15rpx;
+}
+.left{
+  height: 75rpx;
+  width: max-content;
+}
+
+.right{
+  width: 20rpx;
+}
+
+.left-top-name{
+  font-weight: bold;
+  color: #3f3f3f;
+  font-size: 25rpx;
+}
+.left-down{
+  font-size: 25rpx;
+  color: #747474;
+}
+.right-icon{
+  height: 30rpx;
+  width: 30rpx;
+}
+.class-hover{
+  background-color: rgb(250, 250, 250);
+}
+
+.width-mac{
+  width: max-content;
+  padding: 0;
+}

@@ -1,0 +1,17 @@
+<van-tabs id="tabs" active="{{ active }}" color="#FFDE6A" sticky animated>
+  <van-tab title="等待中" >
+    <all in-page="in-page" id="all"></all>
+  </van-tab>
+  <van-tab title="进行中" >
+    <processing id="processing"></processing>
+  </van-tab>
+
+  <van-tab title="已送达" >
+    <done></done>
+  </van-tab>
+  <van-tab title="异常" >
+    <exception></exception>
+  </van-tab>
+</van-tabs>
+
+<van-toast id="van-toast" />

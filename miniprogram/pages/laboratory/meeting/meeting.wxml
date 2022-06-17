@@ -1,0 +1,7 @@
+<wxs module="dateUtil" src="../../../utils/timeFilter.wxs"></wxs>
+<view class="timer">{{dateUtil.dateFormat(timer,'hh:mm:ss')}}</view>
+<view class="title">触发时间点</view>
+<view>09：00</view>
+<button bindtap="button">测试</button>
+<button bindtap="gotoLogin">去登陆</button>
+<van-toast id="van-toast" />

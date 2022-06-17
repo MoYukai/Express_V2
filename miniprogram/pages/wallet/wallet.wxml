@@ -1,0 +1,15 @@
+<page-model>
+  <wallet-card
+  bind:btn="withdraw"
+  number="{{balance}}"
+  >
+  </wallet-card>
+  <wallet-card 
+  leftColor="#F6C354" 
+  rightColor="#F2A360"
+  title="我的核销码（张）"
+  number="{{redeemCount}}"
+  button="去兑换"
+  bind:btn="exchange"
+  ></wallet-card>
+</page-model>

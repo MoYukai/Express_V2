@@ -1,0 +1,40 @@
+<view class="card flex align-center" wx:if="{{!buy}}">
+  <view class="title-card-o">
+    <view class="title-card flex">
+      <view class="title-card-left flex align-start">
+        <view>
+          <view class="title-card-left-title">快递代拿月卡</view>
+          <view class="title-card-left-text">包含<text class="title-card-left-text-big">60</text>张代拿券</view>
+        </view>
+      </view>
+      <view class="title-card-right flex align-center">
+      </view>
+    </view>
+  </view>
+  <view class="text-card flex flex-direction align-end justify-start">
+    <view class="text-card-row-a">仅需<text class="text-card-row-a-big">19</text>元/月</view>
+    <view class="text-card-row-b">120元/月</view>
+    <view class="text-card-row-c flex align-center justify-center" hover-class="btn-hover" bindtap="buy">立即抢购</view>
+  </view>
+</view>
+
+
+<view class="card flex align-center" wx:if="{{buy}}">
+  <view class="title-card-o">
+    <view class="title-card flex">
+      <view class="title-card-left flex align-start">
+        <view>
+          <view class="title-card-left-title">已购买月卡</view>
+          <view class="title-card-left-text">剩余<text class="title-card-left-text-big">{{count}}</text>张代拿券</view>
+        </view>
+      </view>
+      <view class="title-card-right flex align-center">
+      </view>
+    </view>
+  </view>
+  <view class="text-card flex flex-direction align-end justify-start">
+    <view class="text-card-row-a"><text class="text-card-row-a-big">19</text>元/月</view>
+    <view class="text-card-row-b-bought">{{expire}}到期</view>
+    <view class="text-card-row-c flex align-center justify-center" hover-class="btn-hover" bindtap="use">立即使用</view>
+  </view>
+</view>

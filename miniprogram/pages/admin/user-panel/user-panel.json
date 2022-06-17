@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "user-all":"./tab-page/user-all/user-all"
+  },
+  "navigationBarTitleText": "用户面板",
+  "navigationBarBackgroundColor": "#ffffff",
+  "backgroundColorTop": "#ffffff",
+  "backgroundColorBottom": "#f4f4f4"
+}

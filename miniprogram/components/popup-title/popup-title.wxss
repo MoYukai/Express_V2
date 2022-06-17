@@ -1,0 +1,7 @@
+@import "../../layout/flex.wxss";
+.title{
+  font-size: 35rpx;
+  width: 100%;
+  margin-top: 30rpx;
+  margin-bottom: 50rpx;
+}

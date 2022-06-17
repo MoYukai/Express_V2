@@ -1,0 +1,14 @@
+var index = {
+
+  cdbDate: function (date) {
+    var date = getDate(date)
+    var s = date.getTime()
+    return s
+  }
+  
+
+}
+module.exports = {
+  cdbDate: index.cdbDate
+}
+

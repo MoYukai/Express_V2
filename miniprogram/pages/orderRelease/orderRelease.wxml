@@ -1,0 +1,64 @@
+<background height="60" paddingTop="20">
+  <page-model bottom="200">
+    <release-tab title="输入取件码">
+      <code-input code="{{code}}" bind:input="codeInput">
+      </code-input>
+    </release-tab>
+    <release-tab title="选择驿站">
+      <post-select address="{{address}}" bind:select="select"></post-select>
+    </release-tab>
+    <release-tab title="配送至" line="true">
+      <address-tab wx:if="{{userAddress}}" bindtap="gotoAddress" arrow="{{true}}" name="{{userAddress.name}}"
+        phone="{{userAddress.phone}}"
+        address="{{userAddress.college_name}} {{userAddress.dorm_name}} {{userAddress.dorm_number}}栋 {{userAddress.room}}">
+      </address-tab>
+      <view wx:if="{{!userAddress}}" class="dis" bindtap="gotoAddress">完善收货信息</view>
+    </release-tab>
+    <release-tab title="选择大小">
+    <view class="changeSize">
+      <van-radio-group 
+      value="{{size_radio}}" 
+      bind:change="onChangeSize"
+      direction="horizontal"
+      disabled="{{monthCardBought}}"
+      >
+  <van-radio name="1" checked-color="#FFC300" price-delta="0">中·小件</van-radio>
+  <van-radio name="2" checked-color="#FFC300" price-delta="200">大件</van-radio>
+</van-radio-group>
+</view>
+
+    </release-tab>
+    <release-tab title="优惠" line="true">
+      <!-- <view class="dis">暂无优惠{{monthCardType}}</view> -->
+      <view wx:if="{{free_code_count >= 1}}" class="free-box">检测到您有{{free_code_count}}次免费机会，优先为您选用~</view>
+      <month-card-release
+      id="month-card-release"
+      bought="{{monthCardType}}"
+      bind:monthCardOperate="monthCardOperate"
+      monthCardOperate="{{monthCardOperate}}"
+      bind:help="monthCardHelp"
+      today_remain="{{today_remain}}"
+      day_remain="{{day_remain}}"
+      boughtDesc="{{boughtDesc}}"
+      >
+      </month-card-release>
+    </release-tab>
+    <van-submit-bar
+     price="{{ price }}" tip="默认送货到宿舍楼下哦，送达后请尽快领取～" button-text="提交订单" bind:submit="onSubmit"
+      button-class="button-class" />
+  </page-model>
+</background>
+<van-toast id="van-toast" />
+<van-dialog
+  title="订单提交"
+  message="请允许授权以便为您提供更好的服务"
+  show="{{userInfoPopShow}}"
+  show-cancel-button
+  confirm-button-open-type="getUserInfo"
+  bind:close="closeUserInfoPop"
+  bind:getuserinfo="getUserInfo"
+  confirmButtonText="好的"
+  cancelButtonText="稍后"
+  confirm-button-color="#FF9403"
+>
+</van-dialog>

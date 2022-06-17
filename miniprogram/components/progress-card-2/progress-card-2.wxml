@@ -1,0 +1,8 @@
+<view bindtap="detail" class="card flex align-center justify-between">
+<view class="left">
+<view class="code">{{code}}</view>
+<view class="post">{{name}}</view>
+</view>
+<view class="right">{{time}}</view>
+</view>
+<slot></slot>

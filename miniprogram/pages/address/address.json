@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "page-model":"../../components/page-model/page-model",
+    "van-picker": "@vant/weapp/picker/index",
+    "van-popup": "@vant/weapp/popup/index",
+    "popup-title":"../../components/popup-title/popup-title"
+  },
+  "navigationBarTitleText": "更改地址",
+  "backgroundColorTop": "white",
+  "backgroundColorBottom": "white",
+  "navigationBarBackgroundColor": "#ffffff"
+}

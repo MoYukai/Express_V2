@@ -1,0 +1,10 @@
+<view class="tab flex align-center justify-between">
+  <view class="left flex align-center justify-start">
+    <image class="left-icon" mode="widthFix" src="{{icon}}"></image>
+    <view class="left-title flex flex-direction justify-between">
+      <view class="left-title-a">{{title}}</view>
+      <view class="left-title-b">{{desc}}</view>
+    </view>
+  </view>
+  <view class="right flex align-center" hover-class="btn-hover" bindtap="use">去使用</view>
+</view>

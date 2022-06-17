@@ -1,0 +1,44 @@
+@import "../../layout/flex.wxss";
+.box{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.tabbar-box {
+  flex-shrink: 0;
+  background: #FFF;
+  height: 80rpx;
+}
+.scroll-class {
+  /* height: 100rpx; */
+  width: auto;
+  position: relative;
+  flex: 1;
+}
+.wx-image{
+  width: 200rpx;
+  height: 200rpx;
+  text-align: center !important;
+  margin: 20rpx auto !important;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+.wx-image-out{
+  width: 100%;
+}
+.wx-image-text{
+  text-align: left;
+  width: 80%;
+  color: rgb(65, 65, 65);
+  font-size: 24rpx;
+  margin-bottom: 40rpx;
+}
+.wx-image-text>blue{
+  color: rgb(0, 140, 255);
+  font-weight: bold;
+}
+.wx-image-text>red{
+  color: rgb(255, 94, 0);
+  font-weight: bold;
+}

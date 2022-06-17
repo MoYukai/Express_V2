@@ -1,0 +1,8 @@
+<view class="tab flex justify-between align-center" style="background-image: linear-gradient(90deg, {{leftColor}} 0%, {{rightColor}} 100%);">
+<view class="flex flex-direction justify-start left">
+<view class="left-title">{{title}}</view>
+<view class="left-number">{{number}}</view>
+</view>
+
+<view class="btn" hover-class="btn-hover" bindtap="btn">{{button}}</view>
+</view>

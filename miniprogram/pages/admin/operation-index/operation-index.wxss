@@ -1,0 +1,145 @@
+@import "../../../layout/flex.wxss";
+page{
+  background-color: #F4F4F4;
+  padding-top: 10rpx;
+}
+.card{
+  height: auto;
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 25rpx;
+  border-radius: 15rpx;
+  padding-bottom: 20rpx;
+}
+
+.card-title{
+  height:90rpx;
+  width: 90%;
+  margin: 0 auto;
+  font-size: 28rpx;
+}
+
+.card-title-one{
+  height: 35%;
+  width: 6rpx;
+  background-color: #FFC300;
+}
+
+.card-title-two{
+  margin-left: 15rpx;
+  width: 90%;
+}
+
+.card-title-two-i{
+  font-size: 25rpx;
+  margin-left: 20rpx;
+  color: #818181;
+}
+
+.card-title-three image{
+  width: 30rpx;
+}
+
+.card-content{
+
+  width: 90%;
+  height:200rpx;
+  margin: 0 auto;
+}
+
+.card-content-one , .card-content-two{
+  position: relative;
+  height: 75%;
+  margin-left:40rpx;
+  margin-right: 40rpx;
+
+  flex: 1;
+}
+
+.card-content-title{
+  margin-left:40rpx;
+  font-size: 23rpx;
+}
+.card-content-title2{
+  text-align:center;
+  font-size: 23rpx;
+}
+
+
+.card-content-money{
+  width: auto;
+  position: relative;
+  margin-left: 38rpx;
+  margin-top: 10rpx;
+  font-size: 40rpx;
+  font-weight: normal;
+}
+.card-content-money kk{
+  position: relative;
+}
+.card-content-num{
+  margin-top: 25rpx;
+  font-size: 40rpx;
+  font-weight: normal;
+  text-align:center;
+}
+.card-content-money m{
+  top: -10rpx;
+  left: -30rpx;
+  position: absolute;
+  line-height: 60rpx;
+  font-size: 28rpx;
+}
+
+.card-content-money liney{
+  position: absolute;
+  margin-left: 10rpx;
+  height: 75rpx;
+  top: 11rpx;
+  width: 5rpx;
+  background-color:#FFC300
+}
+
+.card-content-flow{
+  width: 150rpx;
+  position: absolute;
+  right: -13rpx;
+  font-size: 20rpx;
+text-align: right;
+margin-right: 18rpx;
+}
+
+.card-content-sque{
+  position: absolute;
+  bottom: 26rpx;
+  right: 45rpx;
+  height: 75rpx;
+  width: 5rpx;
+  background-color:#FFC300;
+}
+.card-content-toolpic image{
+  height: 60rpx;
+  width: 60rpx;
+
+  margin: 0 auto;
+}
+.card-content-toolpic-text{
+  text-align: center;
+  margin-top: 20rpx;
+  font-size: 20rpx;
+}
+.card-content-toolpic-his{
+  color: #505050;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20rpx;
+  font-size: 17rpx;
+  border: #D3D3D3 2rpx solid;
+  width: 80rpx;
+  height: 35rpx;
+  border-radius: 15rpx;
+}
+.oqp{
+  height: 90rpx;
+}

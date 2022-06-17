@@ -1,0 +1,20 @@
+@import "../../../../../layout/flex.wxss";
+.box{
+}
+.box-icon{
+  width: 50rpx;
+  height: 50rpx;
+
+}
+.box-text{
+  font-size: 22rpx;
+  color: rgb(112, 112, 112);
+  margin-top:6rpx ;
+}
+
+.time{
+  color: rgb(100, 100, 100);
+  font-size: 23rpx;
+  margin-top: 7rpx;
+  width: 420rpx;
+}

@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "page-model":"../../components/page-model/page-model",
+    "bill-unit":"../../components/bill-unit/bill-unit",
+    "progress-none":"../../components/progress-none/progress-none"
+  },
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTitleText": "我的账单",
+  "backgroundColorTop": "#f4f4f4"
+}

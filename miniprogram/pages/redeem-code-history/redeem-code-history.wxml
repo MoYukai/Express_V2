@@ -1,0 +1,4 @@
+<page-model>
+  <redeem-code-unit wx:if="{{list.length != 0}}" wx:for="{{list}}" wx:key="index" price="{{item.price / 100}}" available="{{false}}"></redeem-code-unit>
+  <redeem-code-null bind:button="gotoWidthdraw" wx:if="{{list.length == 0}}" bind:button="gotoWidthdraw"></redeem-code-null>
+</page-model>

@@ -1,0 +1,5 @@
+<view class="tab flex flex-direction align-center justify-start">
+<view class="title">{{title}}</view>
+<view wx:if="{{line}}" class="line"></view>
+<slot class="slot"></slot>
+</view>

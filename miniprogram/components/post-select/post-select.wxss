@@ -1,0 +1,16 @@
+@import "../../layout/flex.wxss";
+
+.item{
+  width:450rpx;
+  height:100rpx;
+  border-radius: 15rpx;
+  margin: 25rpx 0;
+  font-weight: bold;
+  color: #8a8a8a;
+  border: #DBDBDB 2rpx solid ;
+}
+.select{
+  background-color: #FFEA9F;
+  border: #FFD027 2rpx solid;
+  color: #AC8A11;
+}

@@ -1,0 +1,5 @@
+<view class="box flex align-center justify-between">
+<view class="line"></view>
+<view class="text">我想帮别人取件</view>
+<view class="line"></view>
+</view>

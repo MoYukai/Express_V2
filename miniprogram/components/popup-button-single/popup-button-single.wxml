@@ -1,0 +1,3 @@
+<view class="line flex align-center justify-center" style="margin-bottom:{{bottom}}rpx">
+<view class="button button-yellow flex justify-center" hover-class="button-hover" bindtap="button">{{button}}</view>
+</view>

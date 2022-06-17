@@ -1,0 +1,10 @@
+<view class="box flex align-center justify-center">
+<view class="inner-box flex align-center justify-around">
+<view wx:for="{{list}}" class="item flex flex-direction align-center justify-between" wx:key="key" data-ids="{{index}}" hover-class="item-hover" bindtap="itemSelect">
+<image class="item-icon" src="{{item.icon}}" mode="widthFix"></image>
+<view class="item-text">{{item.name}}</view>
+<view class="dot" wx:if="{{item.dot}}"></view>
+</view>
+
+</view>
+</view>
